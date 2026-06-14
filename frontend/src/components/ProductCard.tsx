@@ -66,9 +66,9 @@ export function ProductCard({ item }: ProductCardProps) {
               bg-brand-light/30 text-amber-800 text-xs font-medium
               border border-amber-200 truncate max-w-xs
             "
-            title={item.context_badge}
+            title={displayBadge}
           >
-            {item.context_badge}
+            {displayBadge}
           </span>
         </div>
 
