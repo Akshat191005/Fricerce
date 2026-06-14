@@ -1,0 +1,111 @@
+{
+  "catalog": [
+    { "sku": "SKU-001", "name": "Advanced MERN Stack Architectures", "description": "A comprehensive textbook detailing MongoDB, Express, React, and Node.js integration for scalable web apps.", "price": 54.99, "stock_quantity": 40, "delivery_time_hours": 24, "category": "books", "brand": "TechPress", "image_url": "https://example.com/img/mern-book.jpg" },
+    { "sku": "SKU-002", "name": "High-Altitude Sleeping Bag (-10°C)", "description": "Thermal mummy-style sleeping bag designed for extreme cold and mountain trekking up to 12,000 feet.", "price": 189.00, "stock_quantity": 15, "delivery_time_hours": 48, "category": "outdoor", "brand": "SummitGear", "image_url": "https://example.com/img/sleeping-bag.jpg" },
+    { "sku": "SKU-003", "name": "Plant-Protein Snack Bars (12-Pack)", "description": "100% vegetarian protein bars made with pea protein and almonds. Perfect energy boost.", "price": 24.50, "stock_quantity": 200, "delivery_time_hours": 2, "category": "food", "brand": "GreenFuel", "image_url": "https://example.com/img/protein-bars.jpg" },
+    { "sku": "SKU-004", "name": "Digital Signal Processing Fundamentals", "description": "Learn the math behind audio analysis, including STFT, DFT, and MFCC windowing functions.", "price": 65.00, "stock_quantity": 25, "delivery_time_hours": 24, "category": "books", "brand": "AudioTech", "image_url": "https://example.com/img/dsp-book.jpg" },
+    { "sku": "SKU-005", "name": "Blue Alien Antigravity Backpack", "description": "A fun, durable school backpack featuring a popular blue alien. Great for carrying laptops and books.", "price": 35.00, "stock_quantity": 80, "delivery_time_hours": 12, "category": "accessories", "brand": "PopCultureCo", "image_url": "https://example.com/img/alien-backpack.jpg" },
+    { "sku": "SKU-006", "name": "Over-Ear Noise Canceling Headphones", "description": "Block out loud hostel or dorm noise. Features deep bass and 30-hour battery life.", "price": 120.00, "stock_quantity": 50, "delivery_time_hours": 12, "category": "electronics", "brand": "SoundWave", "image_url": "https://example.com/img/headphones.jpg" },
+    { "sku": "SKU-007", "name": "Vitamin B12 Vegan Gummies", "description": "Daily vegetarian supplement to support energy levels and nerve health. 60 count.", "price": 18.99, "stock_quantity": 150, "delivery_time_hours": 2, "category": "health", "brand": "NaturaLife", "image_url": "https://example.com/img/b12-gummies.jpg" },
+    { "sku": "SKU-008", "name": "Carbon Fiber Trekking Poles", "description": "Lightweight, shock-absorbing poles for high-altitude hiking and joint protection.", "price": 45.00, "stock_quantity": 60, "delivery_time_hours": 24, "category": "outdoor", "brand": "TrailBlaze", "image_url": "https://example.com/img/trekking-poles.jpg" },
+    { "sku": "SKU-009", "name": "Ergonomic Split Keyboard", "description": "Reduce wrist strain during long full-stack coding sessions. Mechanical brown switches.", "price": 115.00, "stock_quantity": 30, "delivery_time_hours": 48, "category": "electronics", "brand": "CodeKey", "image_url": "https://example.com/img/keyboard.jpg" },
+    { "sku": "SKU-010", "name": "Measurement Microphone", "description": "Omnidirectional mic used for precise room acoustic analysis and audio signal capture.", "price": 89.00, "stock_quantity": 10, "delivery_time_hours": 72, "category": "electronics", "brand": "Acoustix", "image_url": "https://example.com/img/mic.jpg" },
+    { "sku": "SKU-011", "name": "Dorm Room Shower Caddy", "description": "Mesh organizer for carrying toiletries to communal hostel bathrooms. Quick-dry material.", "price": 12.50, "stock_quantity": 300, "delivery_time_hours": 2, "category": "home", "brand": "DormLife", "image_url": "https://example.com/img/caddy.jpg" },
+    { "sku": "SKU-012", "name": "Tropical Desk Mat", "description": "Large extended mouse pad featuring a Hawaiian surfboard and alien design.", "price": 22.00, "stock_quantity": 100, "delivery_time_hours": 24, "category": "accessories", "brand": "PopCultureCo", "image_url": "https://example.com/img/deskmat.jpg" },
+    { "sku": "SKU-013", "name": "Organic Lentil Soup (6-Pack)", "description": "Ready-to-eat, microwaveable vegetarian soup. High in protein and fiber.", "price": 16.00, "stock_quantity": 85, "delivery_time_hours": 2, "category": "food", "brand": "EarthEats", "image_url": "https://example.com/img/soup.jpg" },
+    { "sku": "SKU-014", "name": "Dual Monitor Desk Mount", "description": "Heavy-duty VESA mount to hold two screens side-by-side. Essential for developers.", "price": 39.99, "stock_quantity": 40, "delivery_time_hours": 24, "category": "office", "brand": "MountIt", "image_url": "https://example.com/img/mount.jpg" },
+    { "sku": "SKU-015", "name": "Altitude Sickness Relief Chews", "description": "Ginger and electrolyte infused chews to combat nausea at high elevations.", "price": 14.99, "stock_quantity": 120, "delivery_time_hours": 12, "category": "health", "brand": "SummitGear", "image_url": "https://example.com/img/chews.jpg" },
+    { "sku": "SKU-016", "name": "Compact Electric Kettle", "description": "1-liter fast boiling kettle, perfect for making instant noodles or coffee in a hostel room.", "price": 24.99, "stock_quantity": 65, "delivery_time_hours": 12, "category": "home", "brand": "DormLife", "image_url": "https://example.com/img/kettle.jpg" },
+    { "sku": "SKU-017", "name": "Razer DeathAdder Mouse", "description": "High-precision optical gaming mouse with 5 programmable buttons.", "price": 29.99, "stock_quantity": 90, "delivery_time_hours": 2, "category": "electronics", "brand": "Razer", "image_url": "https://example.com/img/razer.jpg" },
+    { "sku": "SKU-018", "name": "Heavy-Duty Paper Towels", "description": "Ultra-absorbent 2-ply paper towels for cleaning up major spills.", "price": 14.50, "stock_quantity": 400, "delivery_time_hours": 2, "category": "cleaning", "brand": "Brawny", "image_url": "https://example.com/img/towels.jpg" },
+    { "sku": "SKU-019", "name": "Stainless Steel Water Bottle", "description": "Insulated 32oz flask that keeps water ice cold for 24 hours.", "price": 28.00, "stock_quantity": 110, "delivery_time_hours": 24, "category": "outdoor", "brand": "HydroFlask", "image_url": "https://example.com/img/bottle.jpg" },
+    { "sku": "SKU-020", "name": "Blue Light Blocking Glasses", "description": "Reduces eye strain from staring at IDEs and monitors all night.", "price": 19.99, "stock_quantity": 75, "delivery_time_hours": 12, "category": "accessories", "brand": "Optix", "image_url": "https://example.com/img/glasses.jpg" },
+    { "sku": "SKU-021", "name": "LED Strip Lights (16ft)", "description": "App-controlled RGB lights to decorate your bedroom or gaming setup.", "price": 22.50, "stock_quantity": 150, "delivery_time_hours": 24, "category": "home", "brand": "Govee", "image_url": "https://example.com/img/leds.jpg" },
+    { "sku": "SKU-022", "name": "AAA Batteries (24 Pack)", "description": "Long-lasting alkaline batteries for remotes and small electronics.", "price": 12.99, "stock_quantity": 500, "delivery_time_hours": 2, "category": "electronics", "brand": "Duracell", "image_url": "https://example.com/img/batteries.jpg" },
+    { "sku": "SKU-023", "name": "Microfiber Cleaning Cloths", "description": "Soft cloths for safely wiping smudges off laptops and monitors.", "price": 9.99, "stock_quantity": 250, "delivery_time_hours": 2, "category": "cleaning", "brand": "TechShine", "image_url": "https://example.com/img/cloth.jpg" },
+    { "sku": "SKU-024", "name": "USB-C Braided Cable 6ft", "description": "Fast charging cable compatible with most modern smartphones and laptops.", "price": 15.00, "stock_quantity": 300, "delivery_time_hours": 2, "category": "electronics", "brand": "Anker", "image_url": "https://example.com/img/usbc.jpg" },
+    { "sku": "SKU-025", "name": "Acoustic Foam Panels (12 Pack)", "description": "Sound-absorbing wall wedges for improving room acoustics and vocal recordings.", "price": 29.99, "stock_quantity": 40, "delivery_time_hours": 48, "category": "office", "brand": "StudioPro", "image_url": "https://example.com/img/foam.jpg" },
+    { "sku": "SKU-026", "name": "Graphing Calculator", "description": "Advanced calculator for higher-level mathematics and engineering courses.", "price": 115.00, "stock_quantity": 20, "delivery_time_hours": 24, "category": "office", "brand": "Texas Instruments", "image_url": "https://example.com/img/calc.jpg" },
+    { "sku": "SKU-027", "name": "Instant Cold Brew Coffee", "description": "Just add water for a highly caffeinated, smooth coffee experience.", "price": 18.50, "stock_quantity": 90, "delivery_time_hours": 2, "category": "food", "brand": "Jot", "image_url": "https://example.com/img/coffee.jpg" },
+    { "sku": "SKU-028", "name": "Memory Foam Seat Cushion", "description": "Relieves tailbone pressure during long study or programming sessions.", "price": 32.00, "stock_quantity": 60, "delivery_time_hours": 24, "category": "office", "brand": "ComfiLife", "image_url": "https://example.com/img/cushion.jpg" },
+    { "sku": "SKU-029", "name": "First Aid Survival Kit", "description": "Compact kit with bandages, antiseptics, and emergency whistle for hiking.", "price": 24.99, "stock_quantity": 85, "delivery_time_hours": 24, "category": "outdoor", "brand": "TrailBlaze", "image_url": "https://example.com/img/firstaid.jpg" },
+    { "sku": "SKU-030", "name": "Vegetarian Cookbook for Students", "description": "Quick, cheap, and easy meatless recipes using a single pan or microwave.", "price": 15.99, "stock_quantity": 110, "delivery_time_hours": 24, "category": "books", "brand": "FoodPress", "image_url": "https://example.com/img/cookbook.jpg" },
+    { "sku": "SKU-031", "name": "Portable Power Bank 20000mAh", "description": "High-capacity battery to charge your phone multiple times while traveling.", "price": 45.99, "stock_quantity": 100, "delivery_time_hours": 12, "category": "electronics", "brand": "Anker", "image_url": "https://example.com/img/powerbank.jpg" },
+    { "sku": "SKU-032", "name": "Merino Wool Hiking Socks", "description": "Moisture-wicking, blister-preventing socks for long mountain treks.", "price": 19.50, "stock_quantity": 130, "delivery_time_hours": 24, "category": "apparel", "brand": "SmartWool", "image_url": "https://example.com/img/socks.jpg" },
+    { "sku": "SKU-033", "name": "Dry Erase Whiteboard 36x24", "description": "Wall-mounted board perfect for outlining system architectures and math problems.", "price": 34.00, "stock_quantity": 25, "delivery_time_hours": 48, "category": "office", "brand": "Quartet", "image_url": "https://example.com/img/whiteboard.jpg" },
+    { "sku": "SKU-034", "name": "Whiteboard Markers (8 Colors)", "description": "Low-odor markers with chisel tips. Essential for the whiteboard.", "price": 11.99, "stock_quantity": 150, "delivery_time_hours": 2, "category": "office", "brand": "Expo", "image_url": "https://example.com/img/markers.jpg" },
+    { "sku": "SKU-035", "name": "Noise-Isolating Earplugs", "description": "Silicone earplugs to block out snoring roommates or loud environments.", "price": 14.50, "stock_quantity": 200, "delivery_time_hours": 2, "category": "health", "brand": "Loop", "image_url": "https://example.com/img/earplugs.jpg" },
+    { "sku": "SKU-036", "name": "Multi-Tool Pocket Knife", "description": "Contains a knife, pliers, screwdrivers, and scissors. Great for camping.", "price": 55.00, "stock_quantity": 40, "delivery_time_hours": 24, "category": "outdoor", "brand": "Leatherman", "image_url": "https://example.com/img/multitool.jpg" },
+    { "sku": "SKU-037", "name": "Laptop Cooling Pad", "description": "USB-powered stand with fans to prevent your machine from overheating under load.", "price": 28.99, "stock_quantity": 70, "delivery_time_hours": 24, "category": "electronics", "brand": "CoolerMaster", "image_url": "https://example.com/img/cooling.jpg" },
+    { "sku": "SKU-038", "name": "Green Tea Matcha Powder", "description": "Ceremonial grade organic matcha for a calm, jitter-free energy lift.", "price": 26.50, "stock_quantity": 60, "delivery_time_hours": 12, "category": "food", "brand": "MatchaKari", "image_url": "https://example.com/img/matcha.jpg" },
+    { "sku": "SKU-039", "name": "Mini Fridge 3.2 Cu Ft", "description": "Compact refrigerator with a small freezer compartment. Fits under a desk.", "price": 149.00, "stock_quantity": 15, "delivery_time_hours": 72, "category": "home", "brand": "Midea", "image_url": "https://example.com/img/fridge.jpg" },
+    { "sku": "SKU-040", "name": "Webcam 1080p with Microphone", "description": "High-definition camera for online classes and remote developer stand-ups.", "price": 49.99, "stock_quantity": 85, "delivery_time_hours": 24, "category": "electronics", "brand": "Logitech", "image_url": "https://example.com/img/webcam.jpg" },
+    { "sku": "SKU-041", "name": "Reusable Silicone Food Storage Bags", "description": "Eco-friendly alternative to plastic bags. Great for storing vegetarian meal prep.", "price": 18.00, "stock_quantity": 120, "delivery_time_hours": 24, "category": "home", "brand": "Stasher", "image_url": "https://example.com/img/stasher.jpg" },
+    { "sku": "SKU-042", "name": "Headlamp 500 Lumens", "description": "Rechargeable LED headlamp for hands-free lighting during night hikes.", "price": 35.00, "stock_quantity": 55, "delivery_time_hours": 24, "category": "outdoor", "brand": "Petzl", "image_url": "https://example.com/img/headlamp.jpg" },
+    { "sku": "SKU-043", "name": "Algorithms to Live By (Paperback)", "description": "Fascinating book applying computer science principles to everyday human decisions.", "price": 16.99, "stock_quantity": 40, "delivery_time_hours": 24, "category": "books", "brand": "Penguin", "image_url": "https://example.com/img/algo-book.jpg" },
+    { "sku": "SKU-044", "name": "Wireless Presentation Clicker", "description": "Laser pointer and slide advancer for delivering college or hackathon project pitches.", "price": 21.00, "stock_quantity": 60, "delivery_time_hours": 12, "category": "electronics", "brand": "Kensington", "image_url": "https://example.com/img/clicker.jpg" },
+    { "sku": "SKU-045", "name": "Fleece Throw Blanket", "description": "Soft, warm, and lightweight blanket for lounging or studying.", "price": 19.99, "stock_quantity": 150, "delivery_time_hours": 24, "category": "home", "brand": "Bedsure", "image_url": "https://example.com/img/blanket.jpg" },
+    { "sku": "SKU-046", "name": "Grip Strengthener Hand Exerciser", "description": "Adjustable resistance trainer to improve grip strength for outdoor climbing and trekking.", "price": 13.50, "stock_quantity": 80, "delivery_time_hours": 12, "category": "health", "brand": "FitBeast", "image_url": "https://example.com/img/grip.jpg" },
+    { "sku": "SKU-047", "name": "USB Hub 4-Port", "description": "Expand a single USB port into four. Essential for connecting a mouse, keyboard, and mic.", "price": 14.99, "stock_quantity": 200, "delivery_time_hours": 2, "category": "electronics", "brand": "Sabrent", "image_url": "https://example.com/img/hub.jpg" },
+    { "sku": "SKU-048", "name": "Desk Plant (Faux Succulent)", "description": "Adds a touch of maintenance-free greenery to brighten up your workspace.", "price": 11.00, "stock_quantity": 100, "delivery_time_hours": 24, "category": "home", "brand": "IKEA", "image_url": "https://example.com/img/plant.jpg" },
+    { "sku": "SKU-049", "name": "Reusable Grocery Tote Bags", "description": "Sturdy canvas bags for carrying groceries back to the hostel.", "price": 15.00, "stock_quantity": 140, "delivery_time_hours": 24, "category": "home", "brand": "BagPodz", "image_url": "https://example.com/img/tote.jpg" },
+    { "sku": "SKU-050", "name": "Thermal Paste for CPUs", "description": "High-performance compound to keep processors cool during heavy computing tasks.", "price": 8.99, "stock_quantity": 95, "delivery_time_hours": 12, "category": "electronics", "brand": "Arctic", "image_url": "https://example.com/img/paste.jpg" }
+  ],
+  "users": {
+    "USER#123": {
+      "user_id": "USER#123",
+      "full_name": "Hackathon Tester",
+      "email": "test@frictionless.app",
+      "shipping_address": "Room 402, North Hostel Block",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-9982",
+          "purchase_date": "2026-05-10T14:22:00Z",
+          "total_amount": 44.49,
+          "items_purchased": [
+            {
+              "sku": "SKU-017",
+              "name": "Razer DeathAdder Mouse",
+              "description": "High-precision optical gaming mouse with 5 programmable buttons.",
+              "price": 29.99,
+              "stock_quantity": 90,
+              "delivery_time_hours": 2,
+              "category": "electronics",
+              "brand": "Razer",
+              "image_url": "https://example.com/img/razer.jpg"
+            },
+            {
+              "sku": "SKU-018",
+              "name": "Heavy-Duty Paper Towels",
+              "description": "Ultra-absorbent 2-ply paper towels for cleaning up major spills.",
+              "price": 14.50,
+              "stock_quantity": 400,
+              "delivery_time_hours": 2,
+              "category": "cleaning",
+              "brand": "Brawny",
+              "image_url": "https://example.com/img/towels.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-8841",
+          "purchase_date": "2026-01-15T09:10:00Z",
+          "total_amount": 24.50,
+          "items_purchased": [
+            {
+              "sku": "SKU-003",
+              "name": "Plant-Protein Snack Bars (12-Pack)",
+              "description": "100% vegetarian protein bars made with pea protein and almonds. Perfect energy boost.",
+              "price": 24.50,
+              "stock_quantity": 200,
+              "delivery_time_hours": 2,
+              "category": "food",
+              "brand": "GreenFuel",
+              "image_url": "https://example.com/img/protein-bars.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

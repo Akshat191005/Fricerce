@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+mangum==0.19.0
+boto3==1.38.28
+pinecone==6.0.2
+groq==0.13.1
+langchain-huggingface==0.2.0
+sentence-transformers==4.1.0
+pydantic==2.11.5
+python-dotenv==1.1.0

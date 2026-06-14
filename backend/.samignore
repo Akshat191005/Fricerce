@@ -1,0 +1,15 @@
+# Exclude from Lambda deployment package
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git/
+*.md
+node_modules/
+.venv/
+kiro_venv/
+tests/
+*.test.py
+app/utils/seed_data.json
+app/utils/mock_dynamodb.json
+app/utils/update_image_urls.py

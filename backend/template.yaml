@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Frictionless Commerce - AI Shopping Copilot (Option B)
+
+Globals:
+  Function:
+    Timeout: 60
+    MemorySize: 512
+    Environment:
+      Variables:
+        GROQ_API_KEY: !Ref GroqApiKey
+        PINECONE_API_KEY: !Ref PineconeApiKey
+        AWS_ACCOUNT_REGION: !Ref AWS::Region
+        DYNAMODB_TABLE_NAME: !Ref DynamoTableName
+        AWS_REGION_NAME: !Ref AwsRegion
+
+Parameters:
+  GroqApiKey:
+    Type: String
+    NoEcho: true
+    Description: Groq API Key for LLM inference
+
+  PineconeApiKey:
+    Type: String
+    NoEcho: true
+    Description: Pinecone API Key for vector search
+
+  DynamoTableName:
+    Type: String
+    Default: frictionless-users
+    Description: DynamoDB table name for user profiles
+
+  AwsRegion:
+    Type: String
+    Default: ap-southeast-2
+    Description: AWS region where DynamoDB table exists
+
+Resources:
+  FrictionlessApi:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_handler.handler
+      Runtime: python3.13
+      CodeUri: .
+      Description: Frictionless Commerce FastAPI backend
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref DynamoTableName
+      Events:
+        # Root path
+        ApiRoot:
+          Type: Api
+          Properties:
+            Path: /
+            Method: any
+        # Catch-all — routes EVERYTHING else to FastAPI
+        ApiProxy:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: any
+
+Outputs:
+  ApiUrl:
+    Description: "API Gateway endpoint — use this as NEXT_PUBLIC_API_URL"
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod'
+  FunctionArn:
+    Description: Lambda Function ARN
+    Value: !GetAtt FrictionlessApi.Arn

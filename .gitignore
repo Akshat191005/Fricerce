@@ -1,0 +1,35 @@
+# ── Secrets & env ────────────────────────────────
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+# ── Python ───────────────────────────────────────
+kiro_venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ── AWS SAM build artifacts ──────────────────────
+.aws-sam/
+samconfig.toml
+
+# ── Node / Next.js ───────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.next/
+
+# ── Local mock data (optional) ───────────────────
+backend/app/utils/mock_dynamodb.json
+
+# ── OS / editor ──────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

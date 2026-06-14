@@ -1,0 +1,2580 @@
+{
+  "catalog": [
+    {
+      "sku": "SKU-006",
+      "name": "Alpine Hardshell Waterproof Jacket",
+      "description": "Conquer extreme weather with this technical hardshell. Engineered with a 20k/20k waterproof/breathable rating and a 3-layer nylon membrane, it features fully taped seams to block wind and rain while letting sweat vapor escape during heavy exertion.",
+      "price": 249.99,
+      "stock_quantity": 45,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?hardshell+waterproof+jacket&sig=6"
+    },
+    {
+      "sku": "SKU-007",
+      "name": "Thermal Quarter-Zip Fleece",
+      "description": "A versatile mid-layer built for brisk mornings. Crafted from 250gsm Polartec microfleece, this pullover offers high warmth-to-weight ratio and active moisture-wicking, complete with an anti-pill finish to maintain its smooth texture wash after wash.",
+      "price": 75.0,
+      "stock_quantity": 120,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "AeroFit",
+      "image_url": "https://source.unsplash.com/400x400/?thermal+quarter+fleece&sig=7"
+    },
+    {
+      "sku": "SKU-008",
+      "name": "Ultralight Marathon Singlet",
+      "description": "Shave seconds off your PR with our lightest running top. Weighing only 90gsm, the 100% recycled polyester fabric incorporates laser-cut micro-perforations across the back for maximum airflow and zero-chafe bonded seams.",
+      "price": 38.5,
+      "stock_quantity": 85,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "VelocityWear",
+      "image_url": "https://source.unsplash.com/400x400/?ultralight+marathon+singlet&sig=8"
+    },
+    {
+      "sku": "SKU-009",
+      "name": "Thermoregulating Bamboo Sleep Tee",
+      "description": "Experience night-long comfort with advanced fabric technology. Blending 95% bamboo viscose and 5% elastane, this sleep shirt naturally regulates body temperature, wicks night sweats, and is naturally hypoallergenic for sensitive skin.",
+      "price": 32.0,
+      "stock_quantity": 210,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "RestWell",
+      "image_url": "https://source.unsplash.com/400x400/?thermoregulating+bamboo+sleep&sig=9"
+    },
+    {
+      "sku": "SKU-010",
+      "name": "Heavyweight Drop-Shoulder Hoodie",
+      "description": "Streetwear aesthetics meet premium construction. Constructed from an ultra-dense 400gsm French terry cotton, this hoodie provides exceptional structural drape, a double-lined structured hood, and pre-shrunk fabric to guarantee a permanent oversized fit.",
+      "price": 89.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "UrbanThread",
+      "image_url": "https://source.unsplash.com/400x400/?drop+shoulder+hoodie&sig=10"
+    },
+    {
+      "sku": "SKU-011",
+      "name": "Tactical Ripstop Cargo Pants",
+      "description": "Built for rugged environments and heavy utility. These pants utilize a 65/35 poly-cotton ripstop blend coated with Teflon for stain and water resistance, featuring a reinforced gusseted crotch and a 10-pocket layout with magnetic closures.",
+      "price": 68.0,
+      "stock_quantity": 150,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "TrekReady",
+      "image_url": "https://source.unsplash.com/400x400/?ripstop+cargo+pants&sig=11"
+    },
+    {
+      "sku": "SKU-012",
+      "name": "Merino Wool Trekking Socks",
+      "description": "Keep your feet dry and blister-free on multi-day hikes. Woven from a 60% Merino, 38% Nylon, and 2% Lycra blend, these socks feature targeted terry-loop cushioning on the heel and toe, alongside a seamless toe box.",
+      "price": 22.0,
+      "stock_quantity": 300,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?wool+trekking+socks&sig=12"
+    },
+    {
+      "sku": "SKU-013",
+      "name": "Gradient Compression Recovery Tights",
+      "description": "Accelerate muscle recovery post-workout. Featuring 20-30 mmHg of medical-grade graduated compression, the 4-way stretch fabric increases blood flow while the silver-ion treatment permanently prevents odor buildup.",
+      "price": 110.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "AeroFit",
+      "image_url": "https://source.unsplash.com/400x400/?compression+recovery+tights&sig=13"
+    },
+    {
+      "sku": "SKU-014",
+      "name": "Seamless High-Waisted Yoga Leggings",
+      "description": "Fluid movement without distractions. Engineered with an 85% Nylon/15% Spandex circular knit, these leggings are 100% squat-proof, feature a wide tummy-control waistband, and boast a moisture-wicking finish for hot yoga sessions.",
+      "price": 54.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "ZenFlow",
+      "image_url": "https://source.unsplash.com/400x400/?waisted+yoga+leggings&sig=14"
+    },
+    {
+      "sku": "SKU-015",
+      "name": "UPF 50+ Long Sleeve Surf Rashguard",
+      "description": "Maximum sun protection for water sports. Made from quick-drying microfibers, this rashguard provides certified UPF 50+ UV blockage, flatlock stitching to prevent board rash, and a boardshort-connector loop at the hem.",
+      "price": 42.5,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "WaveRider",
+      "image_url": "https://source.unsplash.com/400x400/?sleeve+surf+rashguard&sig=15"
+    },
+    {
+      "sku": "SKU-016",
+      "name": "15oz Raw Selvedge Denim Jeans",
+      "description": "Authentic denim for the true aficionado. Woven on vintage shuttle looms from 100% Zimbabwean cotton, this 15oz unwashed raw denim features a classic redline selvedge ID, hidden copper rivets, and a button fly.",
+      "price": 185.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 72,
+      "category": "clothing",
+      "brand": "HeritageDenim",
+      "image_url": "https://source.unsplash.com/400x400/?selvedge+denim+jeans&sig=16"
+    },
+    {
+      "sku": "SKU-017",
+      "name": "Mongolian Cashmere V-Neck Sweater",
+      "description": "The pinnacle of winter luxury. Knitted using 2-ply 100% Mongolian cashmere in a fine 12-gauge knit, this sweater provides exceptional insulation without bulk and features ribbed cuffs and hem for shape retention.",
+      "price": 145.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "LuxeKnit",
+      "image_url": "https://source.unsplash.com/400x400/?cashmere+neck+sweater&sig=17"
+    },
+    {
+      "sku": "SKU-018",
+      "name": "Articulated Trail Hiking Pants",
+      "description": "Move freely over technical terrain. These lightweight trail pants feature a DWR (Durable Water Repellent) coating, articulated knee darts, and a 4-way stretch crotch gusset to maximize range of motion during steep ascents.",
+      "price": 79.99,
+      "stock_quantity": 110,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "TrekReady",
+      "image_url": "https://source.unsplash.com/400x400/?trail+hiking+pants&sig=18"
+    },
+    {
+      "sku": "SKU-019",
+      "name": "Aero-Fit Cycling Jersey",
+      "description": "Slice through the wind on your next peloton ride. Designed with a skin-tight aerodynamic profile, this jersey incorporates silicone hem grippers to prevent riding up, 3 deep rear pockets, and 360-degree reflective trims for low-light safety.",
+      "price": 95.0,
+      "stock_quantity": 65,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "VeloSpeed",
+      "image_url": "https://source.unsplash.com/400x400/?aero+cycling+jersey&sig=19"
+    },
+    {
+      "sku": "SKU-020",
+      "name": "700-Fill Insulated Puffer Vest",
+      "description": "Core warmth without restricting arm movement. Packed with 700-fill power RDS-certified goose down, this vest features a 20D ripstop nylon shell with a water-resistant finish and compresses down to fit inside its own pocket.",
+      "price": 130.0,
+      "stock_quantity": 75,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?insulated+puffer+vest&sig=20"
+    },
+    {
+      "sku": "SKU-021",
+      "name": "Anti-Odor Performance Gym Tee",
+      "description": "Train harder without the lingering gym smell. Infused with permanent silver-ion technology, this athletic tee actively fights odor-causing bacteria. Features include raglan sleeves for shoulder mobility and smooth flatlock seams.",
+      "price": 28.0,
+      "stock_quantity": 250,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "AeroFit",
+      "image_url": "https://source.unsplash.com/400x400/?anti+odor+performance&sig=21"
+    },
+    {
+      "sku": "SKU-022",
+      "name": "Egyptian Cotton Oxford Button-Down",
+      "description": "A crisp, professional staple that stays sharp all day. Crafted from 100% Egyptian long-staple cotton with a 120 thread count, this shirt features an eco-friendly wrinkle-resistant treatment and genuine mother-of-pearl buttons.",
+      "price": 85.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "UrbanThread",
+      "image_url": "https://source.unsplash.com/400x400/?oxford+button+down&sig=22"
+    },
+    {
+      "sku": "SKU-023",
+      "name": "Packable Windbreaker Anorak",
+      "description": "Emergency weather protection that weighs next to nothing. Built with a 2.5-layer waterproof breathable membrane, this half-zip anorak packs tightly into its own front kangaroo pouch, making it perfect for unpredictable climates.",
+      "price": 65.0,
+      "stock_quantity": 140,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "Outbound",
+      "image_url": "https://source.unsplash.com/400x400/?packable+windbreaker+anorak&sig=23"
+    },
+    {
+      "sku": "SKU-024",
+      "name": "Waffle-Knit Thermal Long Johns",
+      "description": "Trap body heat efficiently during sub-zero drops. The classic waffle-knit construction utilizes a 60/40 cotton-poly blend to create tiny thermal air pockets, finished with snug ribbed cuffs to prevent cold drafts.",
+      "price": 35.0,
+      "stock_quantity": 160,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?thermal+long+johns&sig=24"
+    },
+    {
+      "sku": "SKU-025",
+      "name": "Peruvian Pima Cotton Crewneck",
+      "description": "The ultimate everyday tee. Made exclusively from 160gsm Peruvian Pima cotton known for its extra-long fibers, this t-shirt provides a silk-like hand feel, enhanced durability, and is pre-shrunk to guarantee a consistent fit.",
+      "price": 40.0,
+      "stock_quantity": 200,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "EssentialWear",
+      "image_url": "https://source.unsplash.com/400x400/?pima+cotton+crewneck&sig=25"
+    },
+    {
+      "sku": "SKU-026",
+      "name": "Insulated Ski Bib Pants",
+      "description": "Stay dry and warm in deep powder. These ski bibs boast a 15k/15k waterproofing rating, 60g of synthetic insulation, reinforced Cordura kick panels against edge cuts, and integrated elastic boot gaiters to keep snow out.",
+      "price": 195.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?insulated+pants&sig=26"
+    },
+    {
+      "sku": "SKU-027",
+      "name": "French Flax Linen Summer Shirt",
+      "description": "Beat the heat with natural breathability. Woven from 100% French flax linen, this relaxed-fit button-up is garment-dyed for a lived-in look and naturally wicks moisture to keep you cool in humid climates.",
+      "price": 72.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "SunCoast",
+      "image_url": "https://source.unsplash.com/400x400/?linen+summer+shirt&sig=27"
+    },
+    {
+      "sku": "SKU-028",
+      "name": "Maternity Support Active Leggings",
+      "description": "Engineered for comfort through all trimesters. Featuring a seamless over-belly support band, these leggings offer moderate compression to relieve lower back pressure, combined with breathable mesh panels behind the knees.",
+      "price": 58.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "ZenFlow",
+      "image_url": "https://source.unsplash.com/400x400/?support+active+leggings&sig=28"
+    },
+    {
+      "sku": "SKU-029",
+      "name": "Battery-Heated Winter Gloves",
+      "description": "Defeat frostbite with active thermal technology. These gloves feature 7.4V battery-powered carbon fiber heating elements wrapping around each finger, 3 distinct heat settings, and touchscreen-compatible index fingertips.",
+      "price": 149.99,
+      "stock_quantity": 25,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "ArcticTech",
+      "image_url": "https://source.unsplash.com/400x400/?heated+winter+gloves&sig=29"
+    },
+    {
+      "sku": "SKU-030",
+      "name": "Open-Water Triathlon Wetsuit",
+      "description": "Maximize buoyancy and speed in open water. This wetsuit utilizes variable neoprene thickness (5mm core, 3mm limbs) for optimal flotation and flexibility, finished with a Yamamoto SCS coating to drastically reduce water drag.",
+      "price": 299.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 72,
+      "category": "clothing",
+      "brand": "WaveRider",
+      "image_url": "https://source.unsplash.com/400x400/?water+triathlon+wetsuit&sig=30"
+    },
+    {
+      "sku": "SKU-031",
+      "name": "Retro Tricot Track Jacket",
+      "description": "Classic 90s sportswear aesthetic meets modern comfort. Cut from a durable poly-tricot fabric that provides a slight sheen, this track jacket features a stand-up ribbed collar, contrasting sleeve stripes, and zip-secure hand pockets.",
+      "price": 60.0,
+      "stock_quantity": 110,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "UrbanThread",
+      "image_url": "https://source.unsplash.com/400x400/?tricot+track+jacket&sig=31"
+    },
+    {
+      "sku": "SKU-032",
+      "name": "Sherpa-Lined Flannel Shacket",
+      "description": "The perfect hybrid of a shirt and a jacket. The outer shell is constructed from 8oz heavy brushed cotton flannel, while the body is fully lined with plush faux-sherpa for core warmth, finished with heavy-duty snap closures.",
+      "price": 75.0,
+      "stock_quantity": 95,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "Outbound",
+      "image_url": "https://source.unsplash.com/400x400/?lined+flannel+shacket&sig=32"
+    },
+    {
+      "sku": "SKU-033",
+      "name": "Moisture-Wicking Golf Polo",
+      "description": "Maintain your swing and your style on the back nine. Made from 100% poly pique with mechanical stretch, this polo features built-in UPF 30+ sun protection, underarm cooling eyelets, and an anti-curl ribbed collar.",
+      "price": 45.0,
+      "stock_quantity": 130,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "FairwayFit",
+      "image_url": "https://source.unsplash.com/400x400/?wicking+golf+polo&sig=33"
+    },
+    {
+      "sku": "SKU-034",
+      "name": "Heavy-Duty Canvas Work Overalls",
+      "description": "Tough enough for the hardest jobs. Built from rugged 12oz cotton duck canvas, these overalls feature double-knee construction with cleanout bottoms for knee pads, a reinforced hammer loop, and triple-stitched main seams.",
+      "price": 89.5,
+      "stock_quantity": 70,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "IronBuild",
+      "image_url": "https://source.unsplash.com/400x400/?canvas+work+overalls&sig=34"
+    },
+    {
+      "sku": "SKU-035",
+      "name": "100% Silk Charmeuse Sleep Set",
+      "description": "Luxurious sleepwear that benefits your skin and hair. This two-piece set is woven from pure 100% mulberry silk in a charmeuse weave, creating a frictionless surface that prevents sleep creases and regulates body temperature naturally.",
+      "price": 120.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "LuxeKnit",
+      "image_url": "https://source.unsplash.com/400x400/?silk+charmeuse+sleep&sig=35"
+    },
+    {
+      "sku": "SKU-036",
+      "name": "Quick-Dry Performance Boardshorts",
+      "description": "Transition from surf to sand instantly. Engineered with a 4-way stretch poly-spandex blend, these 19-inch outseam boardshorts are treated with a DWR coating that actively sheds water, reducing dry time by up to 50%.",
+      "price": 55.0,
+      "stock_quantity": 105,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "WaveRider",
+      "image_url": "https://source.unsplash.com/400x400/?quick+performance+boardshorts&sig=36"
+    },
+    {
+      "sku": "SKU-037",
+      "name": "High-Impact Encapsulation Sports Bra",
+      "description": "Uncompromising support for rigorous training. Unlike standard compression bras, this model uses molded encapsulation cups to support each breast individually, featuring an adjustable hook-and-eye back closure and padded wide straps.",
+      "price": 48.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "AeroFit",
+      "image_url": "https://source.unsplash.com/400x400/?impact+encapsulation+sports&sig=37"
+    },
+    {
+      "sku": "SKU-038",
+      "name": "Active Stretch Golf Chinos",
+      "description": "Tailored looks with athletic functionality. These chinos feature a moisture-wicking stretch twill fabric and a specialized active waistband with an internal silicone shirt-gripper tape to keep you looking neat through 18 holes.",
+      "price": 68.0,
+      "stock_quantity": 115,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "FairwayFit",
+      "image_url": "https://source.unsplash.com/400x400/?stretch+golf+chinos&sig=38"
+    },
+    {
+      "sku": "SKU-039",
+      "name": "Asymmetrical Faux Leather Moto Jacket",
+      "description": "Edgy style with ethical materials. Constructed from a high-grade polyurethane shell that mimics the grain of genuine leather, this jacket features classic asymmetrical zip styling, heavy-duty silver hardware, and a quilted poly-satin lining.",
+      "price": 110.0,
+      "stock_quantity": 50,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "UrbanThread",
+      "image_url": "https://source.unsplash.com/400x400/?leather+moto+jacket&sig=39"
+    },
+    {
+      "sku": "SKU-040",
+      "name": "Ribbed Knit Fold-Over Beanie",
+      "description": "A winter staple designed for max heat retention. Knitted from 100% hypoallergenic acrylic yarn, this chunky ribbed beanie features a flexible fold-over cuff for double-layer ear protection and a snug, one-size-fits-all stretch.",
+      "price": 18.0,
+      "stock_quantity": 300,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?fold+over+beanie&sig=40"
+    },
+    {
+      "sku": "SKU-041",
+      "name": "Core-Spun Merino Base Layer Tee",
+      "description": "The foundation for any cold-weather layering system. This 150gsm base layer utilizes a core-spun technique—wrapping Merino wool fibers around a nylon core—to combine the natural thermoregulation of wool with the durability of synthetics.",
+      "price": 65.0,
+      "stock_quantity": 80,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?merino+base+layer&sig=41"
+    },
+    {
+      "sku": "SKU-042",
+      "name": "Fleece-Backed Softshell Jacket",
+      "description": "Highly breathable protection for active mountain pursuits. The exterior features a tightly woven softshell face with a 10k waterproof rating to deflect wind and light snow, while the interior is bonded with grid fleece to trap body heat.",
+      "price": 125.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 48,
+      "category": "clothing",
+      "brand": "TrekReady",
+      "image_url": "https://source.unsplash.com/400x400/?backed+softshell+jacket&sig=42"
+    },
+    {
+      "sku": "SKU-043",
+      "name": "14-Wale Corduroy Chore Coat",
+      "description": "A timeless piece of utilitarian outerwear. Made from durable 14-wale cotton corduroy (meaning 14 ridges per inch for a fine, velvety texture), this unlined coat features three reinforced patch pockets and vintage-inspired brass donut buttons.",
+      "price": 95.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "HeritageDenim",
+      "image_url": "https://source.unsplash.com/400x400/?corduroy+chore+coat&sig=43"
+    },
+    {
+      "sku": "SKU-044",
+      "name": "Seamless Microfiber Boyshorts",
+      "description": "Everyday invisble comfort. Knit on circular machines to eliminate side seams, these boyshorts offer a full-coverage fit in a 4-way stretch microfiber blend, finished with a breathable 100% cotton gusset for hygiene.",
+      "price": 14.5,
+      "stock_quantity": 400,
+      "delivery_time_hours": 12,
+      "category": "clothing",
+      "brand": "EssentialWear",
+      "image_url": "https://source.unsplash.com/400x400/?seamless+microfiber+boyshorts&sig=44"
+    },
+    {
+      "sku": "SKU-045",
+      "name": "PrimaLoft Synthetic Puffer Jacket",
+      "description": "Retains warmth even when completely soaked. Filled with advanced PrimaLoft Gold synthetic insulation, this lightweight 12oz jacket features a 20D nylon ripstop shell that easily withstands brush and branches on the trail.",
+      "price": 175.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "clothing",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?synthetic+puffer+jacket&sig=45"
+    },
+    {
+      "sku": "SKU-101",
+      "name": "Purifying Clarifying Shampoo",
+      "description": "Revitalize your scalp with this daily cleanser. Formulated with a balanced pH of 5.5 to protect your skin's moisture barrier, it features 2% salicylic acid to gently dissolve product buildup while remaining 100% sulfate-free to keep color-treated hair vibrant.",
+      "price": 12.99,
+      "stock_quantity": 340,
+      "delivery_time_hours": 12,
+      "category": "personal_care",
+      "brand": "PureBotanics",
+      "image_url": "https://source.unsplash.com/400x400/?purifying+clarifying+shampoo&sig=101"
+    },
+    {
+      "sku": "SKU-102",
+      "name": "Ceramide Hydrating Face Wash",
+      "description": "Start your morning routine with deep hydration. This non-foaming facial cleanser is packed with 3 essential ceramides and pure hyaluronic acid to lock in moisture. The 250ml fragrance-free gel is dermatologist-tested and non-comedogenic.",
+      "price": 14.5,
+      "stock_quantity": 215,
+      "delivery_time_hours": 24,
+      "category": "personal_care",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?hydrating+face+wash&sig=102"
+    },
+    {
+      "sku": "SKU-103",
+      "name": "Advanced Whitening Toothpaste",
+      "description": "Achieve a brighter smile safely. This 100g tube utilizes hydrated silica micro-polishers to remove surface stains without damaging enamel. Fortified with 1450ppm fluoride for cavity protection and infused with natural peppermint oil for lasting fresh breath.",
+      "price": 4.99,
+      "stock_quantity": 500,
+      "delivery_time_hours": 12,
+      "category": "oral_care",
+      "brand": "SmileBright",
+      "image_url": "https://source.unsplash.com/400x400/?whitening+toothpaste&sig=103"
+    },
+    {
+      "sku": "SKU-104",
+      "name": "Clinical Strength Antiperspirant",
+      "description": "Stay dry through your most active days. This invisible solid deodorant features an active ingredient of 20% Aluminum Zirconium Tetrachlorohydrex GL for maximum sweat control, providing up to 48 hours of clinical-grade odor and wetness protection.",
+      "price": 8.5,
+      "stock_quantity": 320,
+      "delivery_time_hours": 24,
+      "category": "personal_care",
+      "brand": "ShieldMax",
+      "image_url": "https://source.unsplash.com/400x400/?clinical+strength+antiperspirant&sig=104"
+    },
+    {
+      "sku": "SKU-105",
+      "name": "Mineral Daily SPF 50 Sunscreen",
+      "description": "Essential daily defense against UV rays. This broad-spectrum facial sunscreen uses 15% non-nano zinc oxide for physical sun-blocking. The lightweight, 50ml sheer formula leaves no white cast, is reef-safe, and contains zero parabens.",
+      "price": 22.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "SunGuard",
+      "image_url": "https://source.unsplash.com/400x400/?mineral+daily+sunscreen&sig=105"
+    },
+    {
+      "sku": "SKU-106",
+      "name": "Colloidal Oatmeal Body Wash",
+      "description": "Soothe dry, itchy skin instantly in the shower. Enriched with 1% colloidal oatmeal and pure shea butter, this creamy 500ml body wash gently cleanses while leaving a protective emollient layer. Hypoallergenic and free of synthetic dyes.",
+      "price": 9.99,
+      "stock_quantity": 400,
+      "delivery_time_hours": 24,
+      "category": "personal_care",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?oatmeal+body+wash&sig=106"
+    },
+    {
+      "sku": "SKU-107",
+      "name": "Charcoal Bamboo Toothbrush (4-Pack)",
+      "description": "An eco-friendly alternative to plastic. These toothbrushes feature a 100% biodegradable Moso bamboo handle and BPA-free soft nylon bristles infused with activated charcoal to naturally absorb plaque-causing bacteria.",
+      "price": 11.0,
+      "stock_quantity": 600,
+      "delivery_time_hours": 48,
+      "category": "oral_care",
+      "brand": "EcoSmile",
+      "image_url": "https://source.unsplash.com/400x400/?charcoal+bamboo+toothbrush&sig=107"
+    },
+    {
+      "sku": "SKU-108",
+      "name": "Cooling Aloe Shave Gel",
+      "description": "Prevent razor burn with a protective glide. This 200ml pressurized can dispenses a dense lather formulated with organic aloe vera extract and cooling menthol. The transparent gel format allows for precise edge lining and beard shaping.",
+      "price": 6.5,
+      "stock_quantity": 250,
+      "delivery_time_hours": 24,
+      "category": "grooming",
+      "brand": "SmoothEdge",
+      "image_url": "https://source.unsplash.com/400x400/?cooling+aloe+shave&sig=108"
+    },
+    {
+      "sku": "SKU-109",
+      "name": "5-Blade Precision Razor System",
+      "description": "Achieve a barbershop-close shave at home. Includes one ergonomic, weighted metal handle and two cartridge heads. Each cartridge boasts 5 diamond-coated steel blades, a flexible pivot head, and a lubricating strip enriched with Vitamin E.",
+      "price": 14.99,
+      "stock_quantity": 150,
+      "delivery_time_hours": 12,
+      "category": "grooming",
+      "brand": "SmoothEdge",
+      "image_url": "https://source.unsplash.com/400x400/?precision+razor+system&sig=109"
+    },
+    {
+      "sku": "SKU-110",
+      "name": "Niacinamide Daily Facial Lotion",
+      "description": "Balance oily skin while retaining essential moisture. This ultra-lightweight 100ml fluid moisturizer contains 4% Niacinamide (Vitamin B3) to refine pores and regulate sebum production, absorbing in under 30 seconds for a matte finish.",
+      "price": 16.0,
+      "stock_quantity": 210,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?daily+facial+lotion&sig=110"
+    },
+    {
+      "sku": "SKU-111",
+      "name": "Aloe Infused Hand Sanitizer Gel",
+      "description": "Kill 99.9% of common germs without drying out your hands. Formulated with an active 70% Ethyl Alcohol concentration, this 250ml pump bottle includes aloe vera leaf juice and vegetable glycerin to counteract the harsh effects of alcohol.",
+      "price": 5.5,
+      "stock_quantity": 800,
+      "delivery_time_hours": 12,
+      "category": "hygiene",
+      "brand": "CleanTouch",
+      "image_url": "https://source.unsplash.com/400x400/?infused+hand+sanitizer&sig=111"
+    },
+    {
+      "sku": "SKU-112",
+      "name": "Citrus Antibacterial Liquid Hand Soap",
+      "description": "Tough on bacteria, gentle on skin. Housed in a convenient 300ml pump dispenser, this hand wash utilizes 0.13% Benzalkonium Chloride as its antibacterial agent, enhanced with natural sweet orange essential oils for an uplifting scent.",
+      "price": 4.25,
+      "stock_quantity": 450,
+      "delivery_time_hours": 24,
+      "category": "hygiene",
+      "brand": "CleanTouch",
+      "image_url": "https://source.unsplash.com/400x400/?liquid+hand+soap&sig=112"
+    },
+    {
+      "sku": "SKU-113",
+      "name": "Beeswax & Peppermint Lip Balm",
+      "description": "Seal in moisture and protect against chapping. This 0.15oz pocket-sized stick is made from 100% natural ingredients including organic beeswax, sunflower seed oil, and a tingling peppermint oil finish. Provides broad-spectrum SPF 15 protection.",
+      "price": 3.5,
+      "stock_quantity": 900,
+      "delivery_time_hours": 12,
+      "category": "skincare",
+      "brand": "NatureBalm",
+      "image_url": "https://source.unsplash.com/400x400/?beeswax+peppermint+balm&sig=113"
+    },
+    {
+      "sku": "SKU-114",
+      "name": "Alcohol-Free Mint Mouthwash",
+      "description": "Freshen breath without the painful burn. This 500ml oral rinse uses Cetylpyridinium Chloride to effectively kill gingivitis-causing bacteria. Its 100% alcohol-free formula ensures it won't dry out your mouth, promoting healthy saliva production.",
+      "price": 7.0,
+      "stock_quantity": 300,
+      "delivery_time_hours": 24,
+      "category": "oral_care",
+      "brand": "SmileBright",
+      "image_url": "https://source.unsplash.com/400x400/?free+mint+mouthwash&sig=114"
+    },
+    {
+      "sku": "SKU-115",
+      "name": "PTFE Coated Mint Dental Floss",
+      "description": "Glide effortlessly between tight teeth. This 50-meter spool of dental tape is constructed from shred-resistant PTFE (polytetrafluoroethylene) and lightly coated with natural micro-crystalline wax and refreshing mint flavor.",
+      "price": 3.99,
+      "stock_quantity": 600,
+      "delivery_time_hours": 12,
+      "category": "oral_care",
+      "brand": "SmileBright",
+      "image_url": "https://source.unsplash.com/400x400/?mint+dental+floss&sig=115"
+    },
+    {
+      "sku": "SKU-116",
+      "name": "Organic Cotton Swabs (200 Count)",
+      "description": "Soft, versatile, and environmentally conscious. Featuring 100% certified organic cotton tips spun tightly onto rigid paper sticks, completely eliminating the need for single-use plastic stems. Perfect for makeup application or ear care.",
+      "price": 4.5,
+      "stock_quantity": 400,
+      "delivery_time_hours": 24,
+      "category": "personal_care",
+      "brand": "EcoTouch",
+      "image_url": "https://source.unsplash.com/400x400/?organic+cotton+swabs&sig=116"
+    },
+    {
+      "sku": "SKU-117",
+      "name": "Oil-Free Micellar Cleansing Water",
+      "description": "Melt away makeup without harsh scrubbing. Utilizing advanced micelle molecule technology to act as a dirt magnet, this 400ml liquid formula removes waterproof mascara and daily grime with zero rinsing required and leaves no oily residue.",
+      "price": 9.5,
+      "stock_quantity": 250,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?micellar+cleansing+water&sig=117"
+    },
+    {
+      "sku": "SKU-118",
+      "name": "Rose Water & Witch Hazel Toner",
+      "description": "Refine pores and restore natural skin pH. This 200ml facial toner blends soothing steam-distilled rose water with alcohol-free witch hazel extract. Designed to prep the skin to better absorb serums and moisturizers.",
+      "price": 12.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 48,
+      "category": "skincare",
+      "brand": "PureBotanics",
+      "image_url": "https://source.unsplash.com/400x400/?witch+hazel+toner&sig=118"
+    },
+    {
+      "sku": "SKU-119",
+      "name": "15% L-Ascorbic Acid Vitamin C Serum",
+      "description": "Brighten dark spots and boost collagen production. Housed in a dark-glass 30ml dropper bottle to prevent oxidation, this potent serum contains a clinically proven 15% L-ascorbic acid concentration stabilized with ferulic acid and Vitamin E.",
+      "price": 28.0,
+      "stock_quantity": 120,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?acid+vitamin+serum&sig=119"
+    },
+    {
+      "sku": "SKU-120",
+      "name": "Caffeine Peptide Eye Cream",
+      "description": "Awaken tired eyes and reduce morning puffiness. Formulated in a 15ml precision-tip tube, this lightweight cream combines a 5% caffeine solution to constrict blood vessels and reduce dark circles with multi-peptides to smooth fine lines.",
+      "price": 18.5,
+      "stock_quantity": 150,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?caffeine+peptide+cream&sig=120"
+    },
+    {
+      "sku": "SKU-121",
+      "name": "Coconut Dead Sea Salt Body Scrub",
+      "description": "Slough away dead skin for a radiant glow. Packaged in a wide-mouth 250g jar, this exfoliating treatment blends mineral-rich Dead Sea salt crystals with deeply moisturizing virgin coconut oil and sweet almond oil.",
+      "price": 14.0,
+      "stock_quantity": 200,
+      "delivery_time_hours": 48,
+      "category": "bath_body",
+      "brand": "PureBotanics",
+      "image_url": "https://source.unsplash.com/400x400/?salt+body+scrub&sig=121"
+    },
+    {
+      "sku": "SKU-122",
+      "name": "Triple-Milled Goat Milk Bar Soap",
+      "description": "A dense, long-lasting bar for the gentlest cleanse. This 150g soap block undergoes a traditional triple-milling process to remove excess water, ensuring it never turns to mush. Made with lactic-acid-rich fresh goat milk.",
+      "price": 6.0,
+      "stock_quantity": 500,
+      "delivery_time_hours": 12,
+      "category": "bath_body",
+      "brand": "Farmstead",
+      "image_url": "https://source.unsplash.com/400x400/?goat+milk+soap&sig=122"
+    },
+    {
+      "sku": "SKU-123",
+      "name": "Volumizing Rice Starch Dry Shampoo",
+      "description": "Refresh second-day hair instantly. This 150ml aerosol spray utilizes ultra-fine rice starch powder to quickly absorb scalp oils without leaving a chalky white residue. Adds natural volume and a subtle floral scent between washes.",
+      "price": 8.99,
+      "stock_quantity": 300,
+      "delivery_time_hours": 24,
+      "category": "hair_care",
+      "brand": "StylePro",
+      "image_url": "https://source.unsplash.com/400x400/?rice+starch+shampoo&sig=123"
+    },
+    {
+      "sku": "SKU-124",
+      "name": "Matte Finish Styling Pomade",
+      "description": "Flexible hold with a natural, no-shine look. This 100g jar of water-based pomade offers medium, pliable hold that can be reworked throughout the day. Washes out easily with just water, unlike traditional petroleum-based products.",
+      "price": 13.5,
+      "stock_quantity": 180,
+      "delivery_time_hours": 24,
+      "category": "hair_care",
+      "brand": "BarbersChoice",
+      "image_url": "https://source.unsplash.com/400x400/?finish+styling+pomade&sig=124"
+    },
+    {
+      "sku": "SKU-125",
+      "name": "Lavender Recovery Bath Salts",
+      "description": "Soothe aching muscles after a long day. This 500g resealable pouch contains 100% pure USP-grade Epsom salt (Magnesium Sulfate) infused with French lavender essential oil to promote relaxation and deep sleep.",
+      "price": 9.5,
+      "stock_quantity": 240,
+      "delivery_time_hours": 48,
+      "category": "bath_body",
+      "brand": "ZenSpa",
+      "image_url": "https://source.unsplash.com/400x400/?recovery+bath+salts&sig=125"
+    },
+    {
+      "sku": "SKU-126",
+      "name": "Natural Gourd Exfoliating Loofah",
+      "description": "Enhance your shower lather and circulation. Grown from natural Egyptian Luffa gourds, this 6-inch organic sponge softens significantly in warm water. Comes with a woven cotton rope handle for easy hanging and fast drying.",
+      "price": 5.99,
+      "stock_quantity": 400,
+      "delivery_time_hours": 12,
+      "category": "bath_body",
+      "brand": "EcoTouch",
+      "image_url": "https://source.unsplash.com/400x400/?gourd+exfoliating+loofah&sig=126"
+    },
+    {
+      "sku": "SKU-127",
+      "name": "Heavy-Duty Stainless Steel Nail Clippers",
+      "description": "Precision grooming tools built to last. Forged from high-carbon stainless steel to maintain a razor-sharp, curved cutting edge. Features an ergonomic anti-slip lever and an integrated fine-grit nail file for smooth finishes.",
+      "price": 8.0,
+      "stock_quantity": 550,
+      "delivery_time_hours": 24,
+      "category": "grooming",
+      "brand": "ProGroom",
+      "image_url": "https://source.unsplash.com/400x400/?steel+nail+clippers&sig=127"
+    },
+    {
+      "sku": "SKU-128",
+      "name": "Ultra-Plush 3-Ply Toilet Paper (12 Rolls)",
+      "description": "Unmatched comfort and strength. This 12-pack bundle features wide 3-ply sheets that are 50% thicker than standard rolls. Each roll contains 300 perfectly perforated, septic-safe sheets made from FSC-certified sustainable paper.",
+      "price": 14.99,
+      "stock_quantity": 150,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "SoftCloud",
+      "image_url": "https://source.unsplash.com/400x400/?toilet+paper+rolls&sig=128"
+    },
+    {
+      "sku": "SKU-129",
+      "name": "4-in-1 Enzyme Laundry Detergent Pods",
+      "description": "Tackle tough stains with precise pre-measured doses. This 60-count tub features multi-chamber pods with a proprietary 4-in-1 bio-enzyme formula that cleans, brightens, fights odors, and dissolves completely in HE machines and cold water.",
+      "price": 19.5,
+      "stock_quantity": 200,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "CleanMax",
+      "image_url": "https://source.unsplash.com/400x400/?laundry+detergent+pods&sig=129"
+    },
+    {
+      "sku": "SKU-130",
+      "name": "Plant-Based Grease-Cutting Dish Soap",
+      "description": "Tough on baked-on food, gentle on your hands. This 750ml squeeze bottle utilizes naturally derived, biodegradable coconut surfactants to break down grease instantly. Scented with crisp lemon verbena and free of triclosan.",
+      "price": 4.5,
+      "stock_quantity": 400,
+      "delivery_time_hours": 12,
+      "category": "household_goods",
+      "brand": "EcoClean",
+      "image_url": "https://source.unsplash.com/400x400/?cutting+dish+soap&sig=130"
+    },
+    {
+      "sku": "SKU-131",
+      "name": "Streak-Free Multi-Surface Cleaner",
+      "description": "One spray to clean them all. This 500ml trigger spray bottle delivers an ammonia-free formula safe for glass, stainless steel, granite, and sealed wood. Designed to cut through grime rapidly and leave a flawless, streak-free shine.",
+      "price": 5.99,
+      "stock_quantity": 300,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "CleanMax",
+      "image_url": "https://source.unsplash.com/400x400/?multi+surface+cleaner&sig=131"
+    },
+    {
+      "sku": "SKU-132",
+      "name": "Non-Scratch Kitchen Sponges (6-Pack)",
+      "description": "Safe for Teflon and non-stick cookware. These dual-action sponges combine a highly absorbent 100% natural wood-pulp cellulose base with an abrasive, yet non-scratching, recycled PET scouring pad on top.",
+      "price": 6.5,
+      "stock_quantity": 500,
+      "delivery_time_hours": 12,
+      "category": "household_goods",
+      "brand": "ScrubPro",
+      "image_url": "https://source.unsplash.com/400x400/?scratch+kitchen+sponges&sig=132"
+    },
+    {
+      "sku": "SKU-133",
+      "name": "Select-A-Size 2-Ply Paper Towels (6 Rolls)",
+      "description": "Handle spills of any size with maximum efficiency. These mega rolls feature 120 2-ply sheets each, highly textured with a quilted diamond pattern to trap liquids quickly. The select-a-size perforations reduce unnecessary waste.",
+      "price": 12.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "AbsorbAll",
+      "image_url": "https://source.unsplash.com/400x400/?paper+towels+rolls&sig=133"
+    },
+    {
+      "sku": "SKU-134",
+      "name": "13-Gallon Drawstring Kitchen Trash Bags",
+      "description": "Built to stretch, not tear. This 50-count box of tall kitchen bags is constructed with proprietary flex-polymer technology that resists punctures from sharp boxes. The sturdy red drawstring ensures a tight grip on the can rim.",
+      "price": 9.99,
+      "stock_quantity": 250,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "ToughGuard",
+      "image_url": "https://source.unsplash.com/400x400/?kitchen+trash+bags&sig=134"
+    },
+    {
+      "sku": "SKU-135",
+      "name": "Flushable Aloe Wet Wipes",
+      "description": "A fresher clean for the whole family. Packaged in a moisture-locking 48-count flip-top dispenser, these wipes are infused with soothing aloe and Vitamin E. Utilizing plant-sourced fibers, they are 100% biodegradable and certified flushable.",
+      "price": 4.5,
+      "stock_quantity": 400,
+      "delivery_time_hours": 12,
+      "category": "personal_care",
+      "brand": "FreshWipe",
+      "image_url": "https://source.unsplash.com/400x400/?flushable+aloe+wipes&sig=135"
+    },
+    {
+      "sku": "SKU-136",
+      "name": "Anti-Static Liquid Fabric Softener",
+      "description": "Keep your clothes feeling luxuriously soft. This 1-liter concentrated formula deeply conditions fabric fibers to prevent pilling and color fading while entirely eliminating static cling. Leaves behind a long-lasting spring floral scent.",
+      "price": 7.5,
+      "stock_quantity": 220,
+      "delivery_time_hours": 48,
+      "category": "household_goods",
+      "brand": "SoftTouch",
+      "image_url": "https://source.unsplash.com/400x400/?liquid+fabric+softener&sig=136"
+    },
+    {
+      "sku": "SKU-137",
+      "name": "Aerosol-Free Air Freshener Room Spray",
+      "description": "Eliminate odors naturally without harmful VOCs. This 250ml continuous-spray bottle uses compressed air propellants rather than chemical aerosols. The fine mist neutralizes bad smells at the molecular level, replacing them with a crisp linen scent.",
+      "price": 5.5,
+      "stock_quantity": 310,
+      "delivery_time_hours": 24,
+      "category": "household_goods",
+      "brand": "FreshAir",
+      "image_url": "https://source.unsplash.com/400x400/?freshener+room+spray&sig=137"
+    },
+    {
+      "sku": "SKU-138",
+      "name": "Cocoa Butter Intensive Body Lotion",
+      "description": "Relieve extremely dry, ashy skin for 24 hours. Formulated in a large 400ml pump bottle, this rich, non-greasy lotion is packed with pure raw cocoa butter and Vitamin E. It heals micro-cracks and absorbs quickly into rough elbows and knees.",
+      "price": 8.99,
+      "stock_quantity": 280,
+      "delivery_time_hours": 24,
+      "category": "skincare",
+      "brand": "DermaGlow",
+      "image_url": "https://source.unsplash.com/400x400/?intensive+body+lotion&sig=138"
+    },
+    {
+      "sku": "SKU-139",
+      "name": "Ultra-Thin Organic Cotton Menstrual Pads",
+      "description": "Reliable protection that respects your body. This 24-count box features pads with a highly absorbent super-polymer core and protective flex-wings. The top sheet is made entirely of hypoallergenic, 100% GOTS-certified organic cotton.",
+      "price": 7.5,
+      "stock_quantity": 300,
+      "delivery_time_hours": 12,
+      "category": "hygiene",
+      "brand": "PureCare",
+      "image_url": "https://source.unsplash.com/400x400/?cotton+menstrual+pads&sig=139"
+    },
+    {
+      "sku": "SKU-140",
+      "name": "Silicone-Free Argan Oil Conditioner",
+      "description": "Detangle and nourish without weighing your hair down. Housed in a 300ml bottle, this rich cream conditioner utilizes cold-pressed Moroccan Argan Oil and keratin proteins to repair split ends and add shine, completely avoiding heavy silicones.",
+      "price": 13.5,
+      "stock_quantity": 260,
+      "delivery_time_hours": 24,
+      "category": "hair_care",
+      "brand": "PureBotanics",
+      "image_url": "https://source.unsplash.com/400x400/?free+argan+conditioner&sig=140"
+    },
+    {
+      "sku": "SKU-201",
+      "name": "Elite Carbon-Plated Running Shoe",
+      "description": "Shatter your personal records on race day. Engineered with a full-length curved carbon fiber plate and ultra-responsive Pebax foam, this marathon shoe features an 8mm heel-to-toe drop and weighs a mere 195g (Size 9) for maximum energy return.",
+      "price": 220.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "VelocityWear",
+      "image_url": "https://source.unsplash.com/400x400/?plated+running+shoe&sig=201"
+    },
+    {
+      "sku": "SKU-202",
+      "name": "Classic Goodyear Welted Oxford",
+      "description": "Timeless elegance built to last a lifetime. Crafted from full-grain European calfskin leather, these formal dress shoes utilize traditional 360-degree Goodyear welt construction, allowing for multiple resoles, and feature a cork footbed that molds to your foot.",
+      "price": 285.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 48,
+      "category": "shoes",
+      "brand": "HeritageCobbler",
+      "image_url": "https://source.unsplash.com/400x400/?goodyear+welted+oxford&sig=202"
+    },
+    {
+      "sku": "SKU-203",
+      "name": "Alpine Waterproof Hiking Boots",
+      "description": "Conquer unpredictable trails with absolute stability. These mid-rise boots feature a breathable Gore-Tex waterproof membrane, a Vibram Megagrip rubber outsole with 5mm lugs for loose terrain, and a TPU heel counter for rigid ankle support.",
+      "price": 165.0,
+      "stock_quantity": 80,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "TrekReady",
+      "image_url": "https://source.unsplash.com/400x400/?waterproof+hiking+boots&sig=203"
+    },
+    {
+      "sku": "SKU-204",
+      "name": "Pro-Performance Basketball High-Tops",
+      "description": "Explosive jumping power and hard-court traction. Features a lightweight, breathable engineered knit upper with lockdown flywire cables. The dual-density EVA midsole houses a pressurized Zoom Air unit in the forefoot, paired with a multi-directional herringbone outsole.",
+      "price": 140.0,
+      "stock_quantity": 110,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "AeroFit",
+      "image_url": "https://source.unsplash.com/400x400/?performance+basketball+tops&sig=204"
+    },
+    {
+      "sku": "SKU-205",
+      "name": "Minimalist Barefoot Trainer",
+      "description": "Reactivate your foot's natural biomechanics. This ultra-flexible minimalist shoe boasts a true zero-drop profile (0mm heel-to-toe offset), an anatomical wide toe box for toe splay, and a 4mm puncture-resistant rubber sole for maximum ground feel.",
+      "price": 95.0,
+      "stock_quantity": 65,
+      "delivery_time_hours": 12,
+      "category": "shoes",
+      "brand": "NaturaStep",
+      "image_url": "https://source.unsplash.com/400x400/?minimalist+barefoot+trainer&sig=205"
+    },
+    {
+      "sku": "SKU-206",
+      "name": "Weather-Treated Suede Chelsea Boot",
+      "description": "Seamlessly transition from the office to the street. Made with premium water-repellent suede, this slip-on boot features durable double-stitched elastic side gussets, a pull tab for easy entry, and a natural crepe rubber sole for all-day cushioned comfort.",
+      "price": 150.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 48,
+      "category": "shoes",
+      "brand": "UrbanThread",
+      "image_url": "https://source.unsplash.com/400x400/?suede+chelsea+boot&sig=206"
+    },
+    {
+      "sku": "SKU-207",
+      "name": "Vintage Canvas High-Top Sneakers",
+      "description": "An iconic silhouette that never goes out of style. Built with a heavy-duty 12oz organic cotton canvas upper and a kiln-baked vulcanized rubber outsole. Upgraded with a removable OrthoLite sockliner to provide modern arch support in a retro profile.",
+      "price": 65.0,
+      "stock_quantity": 200,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "StreetClassic",
+      "image_url": "https://source.unsplash.com/400x400/?vintage+canvas+sneakers&sig=207"
+    },
+    {
+      "sku": "SKU-208",
+      "name": "Olympic Weightlifting Shoes",
+      "description": "Achieve deeper squats and superior lifting posture. Engineered with a non-compressible 22mm elevated TPU heel for enhanced ankle mobility, a completely flat rigid rubber outsole for floor contact, and dual metatarsal straps to lock the foot in place.",
+      "price": 180.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "IronBuild",
+      "image_url": "https://source.unsplash.com/400x400/?olympic+weightlifting+shoes&sig=208"
+    },
+    {
+      "sku": "SKU-209",
+      "name": "Rugged Trail Running Sneaker",
+      "description": "Built for dirt, mud, and jagged rocks. Features a Kevlar-reinforced toe bumper, a flexible internal rock plate to prevent stone bruising, aggressive 6mm chevron lugs, and a one-pull quick-lace system with a hidden lace pocket.",
+      "price": 135.0,
+      "stock_quantity": 75,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "SummitGear",
+      "image_url": "https://source.unsplash.com/400x400/?trail+running+sneaker&sig=209"
+    },
+    {
+      "sku": "SKU-210",
+      "name": "Saffiano Leather Driving Loafers",
+      "description": "Casual luxury meets practical design. Crafted from textured Saffiano leather that resists scratches, this slip-on features classic moc-toe hand stitching and a split-pod rubber nub outsole that extends up the heel to protect the leather while driving.",
+      "price": 125.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "LuxeKnit",
+      "image_url": "https://source.unsplash.com/400x400/?leather+driving+loafers&sig=210"
+    },
+    {
+      "sku": "SKU-211",
+      "name": "Patent Leather Stiletto Pumps",
+      "description": "A sharp, sophisticated statement piece. Designed with a sleek pointed toe, a plunging vamp to elongate the leg, and a 100mm (4-inch) slim stiletto heel. Features a lightly padded leather footbed to cushion the ball of the foot.",
+      "price": 145.0,
+      "stock_quantity": 50,
+      "delivery_time_hours": 48,
+      "category": "shoes",
+      "brand": "ModaHeel",
+      "image_url": "https://source.unsplash.com/400x400/?leather+stiletto+pumps&sig=211"
+    },
+    {
+      "sku": "SKU-212",
+      "name": "Chunky Platform Retro Sneaker",
+      "description": "Embrace the bold 90s aesthetic. This 'dad shoe' features a massive 2.5-inch sculpted EVA foam midsole for dramatic height and shock absorption, paired with a complex multi-paneled upper blending breathable mesh, suede overlays, and reflective piping.",
+      "price": 89.99,
+      "stock_quantity": 120,
+      "delivery_time_hours": 12,
+      "category": "shoes",
+      "brand": "PopCultureCo",
+      "image_url": "https://source.unsplash.com/400x400/?platform+retro+sneaker&sig=212"
+    },
+    {
+      "sku": "SKU-213",
+      "name": "Laceless Firm Ground Soccer Cleats",
+      "description": "Pure ball contact without interference. Utilizing a dynamic-fit knit collar that acts as a second skin, these laceless cleats feature a 3D textured synthetic upper for enhanced grip and an injected TPU soleplate with 11 chevron studs for firm natural grass.",
+      "price": 160.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "PitchPro",
+      "image_url": "https://source.unsplash.com/400x400/?ground+soccer+cleats&sig=213"
+    },
+    {
+      "sku": "SKU-214",
+      "name": "Ergonomic Slip-Resistant Work Clogs",
+      "description": "The ultimate 12-hour shift companion for culinary and medical pros. Injection-molded from a proprietary closed-cell foam that is naturally antimicrobial and easy to clean, featuring a deeply treaded ASTM-certified slip-resistant rubber outsole.",
+      "price": 55.0,
+      "stock_quantity": 250,
+      "delivery_time_hours": 12,
+      "category": "shoes",
+      "brand": "ProGrip",
+      "image_url": "https://source.unsplash.com/400x400/?resistant+work+clogs&sig=214"
+    },
+    {
+      "sku": "SKU-215",
+      "name": "Insulated Arctic Snow Boots",
+      "description": "Defeat sub-zero temperatures and deep drifts. These winter boots are packed with 200g Thinsulate insulation rated to -25°F. They feature a seam-sealed waterproof rubber lower shell, a DWR-treated nylon upper, and a plush faux-fur collar to seal out snow.",
+      "price": 110.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "Outbound",
+      "image_url": "https://source.unsplash.com/400x400/?arctic+snow+boots&sig=215"
+    },
+    {
+      "sku": "SKU-216",
+      "name": "Canvas Jute Espadrille Flats",
+      "description": "Lightweight, breathable summer essentials. Handcrafted in Spain, these slip-ons feature a 100% natural cotton canvas upper stitched directly to a flexible sole made of coiled braided jute rope, reinforced with a thin rubber layer for street durability.",
+      "price": 45.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "SunCoast",
+      "image_url": "https://source.unsplash.com/400x400/?jute+espadrille+flats&sig=216"
+    },
+    {
+      "sku": "SKU-217",
+      "name": "Carbon-Sole Road Cycling Shoes",
+      "description": "Transfer every watt of power directly to the pedals. These pro-level road shoes boast a stiffness-index 12 carbon fiber outsole, a synthetic microfiber upper with laser-cut ventilation, and dual BOA L6 micro-adjustable dials for a precision fit. 3-hole cleat compatible.",
+      "price": 210.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 48,
+      "category": "shoes",
+      "brand": "VeloSpeed",
+      "image_url": "https://source.unsplash.com/400x400/?road+cycling+shoes&sig=217"
+    },
+    {
+      "sku": "SKU-218",
+      "name": "Quick-Dry Amphibious Water Shoes",
+      "description": "Seamlessly shift from kayaking to rocky beaches. Made with an elastic, quick-drying neoprene upper, these shoes feature integrated drainage holes through the rubber outsole to expel water instantly, secured by an adjustable bungee toggle lacing system.",
+      "price": 38.0,
+      "stock_quantity": 140,
+      "delivery_time_hours": 12,
+      "category": "shoes",
+      "brand": "WaveRider",
+      "image_url": "https://source.unsplash.com/400x400/?amphibious+water+shoes&sig=218"
+    },
+    {
+      "sku": "SKU-219",
+      "name": "Pro Skateboarding Vulcanized Sneakers",
+      "description": "Engineered for board feel and heavy impacts. Featuring a durable suede upper with a reinforced triple-stitched toe cap to withstand grip tape wear, an overstuffed padded tongue for top-of-foot protection, and a sticky gum rubber waffle outsole.",
+      "price": 75.0,
+      "stock_quantity": 115,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "StreetClassic",
+      "image_url": "https://source.unsplash.com/400x400/?skateboarding+vulcanized+sneakers&sig=219"
+    },
+    {
+      "sku": "SKU-220",
+      "name": "Orthopedic Post-Run Recovery Slides",
+      "description": "Soothe exhausted feet instantly. These slip-on sandals utilize a biomechanically engineered dual-density foam footbed that absorbs 37% more impact than traditional footwear. The aggressive rocker geometry takes the pressure off your plantar fascia.",
+      "price": 49.99,
+      "stock_quantity": 160,
+      "delivery_time_hours": 24,
+      "category": "shoes",
+      "brand": "VelocityWear",
+      "image_url": "https://source.unsplash.com/400x400/?post+recovery+slides&sig=220"
+    },
+    {
+      "sku": "SKU-221",
+      "name": "Antique Brass Elephant Figurine",
+      "description": "A symbol of wisdom and strength for your mantelpiece. Hand-cast from solid brass with an artificially aged verdigris patina finish. This heavy statement piece measures 8\" H x 10\" L x 4\" W and weighs a substantial 3.2 lbs.",
+      "price": 45.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ArtisanHome",
+      "image_url": "https://source.unsplash.com/400x400/?brass+elephant+figurine&sig=221"
+    },
+    {
+      "sku": "SKU-222",
+      "name": "Faceted K9 Crystal Lotus Flower",
+      "description": "Capture and scatter natural light brilliantly across any room. Crafted from high-purity K9 optical crystal with 18 meticulously faceted petals. This 5-inch diameter desktop piece comes in a velvet-lined gift box and doubles as an elegant paperweight.",
+      "price": 32.5,
+      "stock_quantity": 110,
+      "delivery_time_hours": 12,
+      "category": "showpiece",
+      "brand": "LuminaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?crystal+lotus+flower&sig=222"
+    },
+    {
+      "sku": "SKU-223",
+      "name": "Matte Black Abstract Knot Sculpture",
+      "description": "A striking modern focal point for minimalist interiors. Molded from durable polyresin, this continuous-loop geometric knot features a velvety matte black finish. Stands 12 inches tall with a compact 5x5 inch base, perfect for narrow shelving.",
+      "price": 58.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?abstract+knot+sculpture&sig=223"
+    },
+    {
+      "sku": "SKU-224",
+      "name": "Rotating Deep Sea Kinetic Sand Art",
+      "description": "Mesmerizing, ever-changing liquid landscapes. Encased in a 12-inch circular glass frame, varying densities of black, white, and gold sand cascade through fluid to create unique mountain and dune formations every time the frame is flipped 180 degrees.",
+      "price": 38.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ZenDesk",
+      "image_url": "https://source.unsplash.com/400x400/?deep+kinetic+sand&sig=224"
+    },
+    {
+      "sku": "SKU-225",
+      "name": "Vintage Sepia Terrestrial Globe",
+      "description": "Old-world charm for the sophisticated study. This 10-inch diameter globe features antique-style sepia mapping with accurate, up-to-date modern geopolitical boundaries. It sits on a calibrated metal semi-meridian attached to a turned solid mahogany wood base.",
+      "price": 75.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 48,
+      "category": "showpiece",
+      "brand": "ExplorerGoods",
+      "image_url": "https://source.unsplash.com/400x400/?sepia+terrestrial+globe&sig=225"
+    },
+    {
+      "sku": "SKU-226",
+      "name": "Unglazed Terracotta Donut Vase",
+      "description": "Wabi-sabi aesthetics for dried florals or standalone display. This circular, hollow-center vase is hand-thrown from raw terracotta clay, leaving a naturally rough, unglazed bisque finish. Measures 9 inches tall and 8 inches wide with a 2-inch top opening.",
+      "price": 42.0,
+      "stock_quantity": 80,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "EarthyHome",
+      "image_url": "https://source.unsplash.com/400x400/?terracotta+donut+vase&sig=226"
+    },
+    {
+      "sku": "SKU-227",
+      "name": "Rustic Cast Iron Bicycle Bookends",
+      "description": "Keep your library organized with vintage flair. This set of two split bookends forms a complete retro bicycle when placed together. Forged from heavy cast iron with a distressed bronze finish, weighing a combined 4.5 lbs to support heavy textbooks safely.",
+      "price": 49.99,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "HeritageDecor",
+      "image_url": "https://source.unsplash.com/400x400/?iron+bicycle+bookends&sig=227"
+    },
+    {
+      "sku": "SKU-228",
+      "name": "Hand-Blown Cobalt Teardrop Glasswork",
+      "description": "A stunning example of Murano-style artistry. This 14-inch tall solid glass teardrop sculpture features an internal swirl of vibrant cobalt blue and clear glass bubbles. Weighing 5 lbs, the flat polished base ensures wobble-free stability on any console table.",
+      "price": 85.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 48,
+      "category": "showpiece",
+      "brand": "ArtisanGlass",
+      "image_url": "https://source.unsplash.com/400x400/?cobalt+teardrop+glasswork&sig=228"
+    },
+    {
+      "sku": "SKU-229",
+      "name": "Classic 'The Thinker' Marble Statue",
+      "description": "Bring museum-quality art into your home or office. A faithful scaled-down reproduction of Rodin's masterpiece. Cast from a premium blend of bonded marble dust and resin, this 11-inch tall sculpture features a smooth, cool-to-the-touch alabaster white finish.",
+      "price": 110.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "GalleryClassics",
+      "image_url": "https://source.unsplash.com/400x400/?thinker+marble+statue&sig=229"
+    },
+    {
+      "sku": "SKU-230",
+      "name": "Industrial Moving Gears Table Clock",
+      "description": "Timekeeping as mechanical art. This 14-inch diameter steampunk-inspired clock features an open-face design with independently rotating internal brass-toned plastic gears. Powered by a silent quartz movement mechanism requiring 3 AA batteries (not included).",
+      "price": 65.0,
+      "stock_quantity": 70,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ChronoDecor",
+      "image_url": "https://source.unsplash.com/400x400/?gears+table+clock&sig=230"
+    },
+    {
+      "sku": "SKU-231",
+      "name": "Miniature Desktop Zen Garden Set",
+      "description": "Find your focus with interactive desk decor. This 8x8 inch square black wooden tray comes complete with ultra-fine white purified sand, three polished river stones, a miniature meditating polyresin Buddha figurine, and a bamboo raking tool.",
+      "price": 28.5,
+      "stock_quantity": 150,
+      "delivery_time_hours": 12,
+      "category": "showpiece",
+      "brand": "ZenDesk",
+      "image_url": "https://source.unsplash.com/400x400/?miniature+desktop+garden&sig=231"
+    },
+    {
+      "sku": "SKU-232",
+      "name": "Enameled Porcelain Peacock Figurine",
+      "description": "Vibrant, intricate detailing that commands attention. Standing 12 inches tall, this delicate porcelain sculpture features a fully fanned tail painted with rich jewel-toned enamels and accented with genuine 24k gold leaf detailing on the crown and base.",
+      "price": 95.0,
+      "stock_quantity": 20,
+      "delivery_time_hours": 72,
+      "category": "showpiece",
+      "brand": "LuxeCeramics",
+      "image_url": "https://source.unsplash.com/400x400/?porcelain+peacock+figurine&sig=232"
+    },
+    {
+      "sku": "SKU-233",
+      "name": "Magnetic Levitating 3D Moon Lamp",
+      "description": "A futuristic fusion of technology and decor. Using active magnetic repulsion, this 6-inch 3D-printed textured moon sphere floats and continuously rotates 15mm above its faux-wood base. Features touch-controlled LED lighting with three color temperature settings.",
+      "price": 125.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 48,
+      "category": "showpiece",
+      "brand": "TechDecor",
+      "image_url": "https://source.unsplash.com/400x400/?levitating+moon+lamp&sig=233"
+    },
+    {
+      "sku": "SKU-234",
+      "name": "Polished Blue Agate Slice on Stand",
+      "description": "Raw geological beauty elevated. Featuring a genuine, cross-cut slice of Brazilian agate stone (approx. 6-7 inches wide) polished to a high mirror shine to reveal natural crystalline banding. It is mounted securely on a minimalist geometric brass display stand.",
+      "price": 54.0,
+      "stock_quantity": 65,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "EarthyHome",
+      "image_url": "https://source.unsplash.com/400x400/?agate+slice+stand&sig=234"
+    },
+    {
+      "sku": "SKU-235",
+      "name": "Handcrafted Teak Sailboat Model",
+      "description": "Nautical charm executed with precision. Measuring 18 inches long and 22 inches high, this fully assembled model features a solid teak wood hull, meticulously rigged cotton rigging lines, stitched canvas sails, and miniature brass deck fittings.",
+      "price": 140.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 48,
+      "category": "showpiece",
+      "brand": "CoastalLiving",
+      "image_url": "https://source.unsplash.com/400x400/?teak+sailboat+model&sig=235"
+    },
+    {
+      "sku": "SKU-236",
+      "name": "Cold-Cast Bronze Rearing Horse",
+      "description": "Dynamic movement frozen in time. Produced using the cold-cast bronze technique—blending real bronze powder with high-quality casting resin—to achieve an authentic metallic luster. Stands an impressive 16 inches tall on a faux-marble pedestal.",
+      "price": 88.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ArtisanHome",
+      "image_url": "https://source.unsplash.com/400x400/?bronze+rearing+horse&sig=236"
+    },
+    {
+      "sku": "SKU-237",
+      "name": "Laser-Etched DNA Helix Crystal Block",
+      "description": "Perfect for the science enthusiast. A 3D double helix is precision-laser engraved inside a flawless 3x3x6 inch solid K9 acrylic block. Includes a battery-operated LED base that illuminates the internal structure from the bottom in alternating colors.",
+      "price": 44.5,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "LuminaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?helix+crystal+block&sig=237"
+    },
+    {
+      "sku": "SKU-238",
+      "name": "Handwoven Rattan Decorative Centerpiece Bowl",
+      "description": "Organic texture for the modern dining table. Handcrafted by artisans in Indonesia, this shallow 14-inch diameter bowl is tightly woven from natural, sustainable split rattan vine, finished with a clear matte lacquer to protect against humidity and dust.",
+      "price": 36.0,
+      "stock_quantity": 100,
+      "delivery_time_hours": 12,
+      "category": "showpiece",
+      "brand": "EarthyHome",
+      "image_url": "https://source.unsplash.com/400x400/?decorative+centerpiece+bowl&sig=238"
+    },
+    {
+      "sku": "SKU-239",
+      "name": "Millefiori Art Glass Singing Bird",
+      "description": "A burst of color using ancient glassmaking techniques. This 5-inch tall solid glass bird features the Italian 'millefiori' (thousand flowers) design, embedding tiny, vibrant glass mosaics inside a clear outer layer. Weighs a sturdy 1.5 lbs.",
+      "price": 48.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "ArtisanGlass",
+      "image_url": "https://source.unsplash.com/400x400/?glass+singing+bird&sig=239"
+    },
+    {
+      "sku": "SKU-240",
+      "name": "Cast Iron Tabletop Armillary Sphere",
+      "description": "A classic Renaissance astronomical instrument. Measuring 11 inches tall, this decorative globe features interlocking rings that represent the equator, tropics, and colures. Forged from heavy cast iron with a rustic, artificially rusted verdigris finish.",
+      "price": 62.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "showpiece",
+      "brand": "HeritageDecor",
+      "image_url": "https://source.unsplash.com/400x400/?tabletop+armillary+sphere&sig=240"
+    },
+    {
+      "sku": "SKU-301",
+      "name": "Mid-Century Modern Velvet Sofa",
+      "description": "A timeless centerpiece for your living room. Measuring 84 inches wide, this sofa is constructed with a kiln-dried hardwood frame and reinforced corner blocks. The seat cushions feature 2.0 high-density foam wrapped in a hypoallergenic poly-Dacron blend, upholstered in spill-resistant emerald green velvet.",
+      "price": 899.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "UrbanLiving",
+      "image_url": "https://source.unsplash.com/400x400/?modern+velvet+sofa&sig=301"
+    },
+    {
+      "sku": "SKU-302",
+      "name": "Dual-Motor Electric Standing Desk",
+      "description": "Optimize your workspace ergonomics. This 60x30-inch desk features a 1-inch thick eco-friendly bamboo top and a heavy-duty steel frame capable of supporting 220 lbs. The ultra-quiet dual motors adjust the height from 28 to 48 inches at a speed of 1.5 inches per second, with an anti-collision safety sensor.",
+      "price": 450.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?electric+standing+desk&sig=302"
+    },
+    {
+      "sku": "SKU-303",
+      "name": "Solid Oak Extendable Dining Table",
+      "description": "Perfect for both intimate dinners and large gatherings. Handcrafted from solid FAS-grade European oak with a clear matte lacquer finish. The table measures 72 inches but expands to 96 inches using two self-storing 12-inch butterfly leaves, comfortably seating up to 10 guests.",
+      "price": 1250.0,
+      "stock_quantity": 10,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?extendable+dining+table&sig=303"
+    },
+    {
+      "sku": "SKU-304",
+      "name": "Ergonomic Mesh Task Chair",
+      "description": "All-day comfort engineered for the modern office. Features a breathable 3D woven mesh back, a Class-4 pneumatic SGS-certified gas lift, and dynamic lumbar support that tracks your spine's movement. Includes 4D adjustable polyurethane armrests and a 135-degree synchronous tilt mechanism.",
+      "price": 275.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?mesh+task+chair&sig=304"
+    },
+    {
+      "sku": "SKU-305",
+      "name": "Rustic Industrial Ladder Bookshelf",
+      "description": "Display your library in style. Standing 72 inches tall, this 5-tier leaning bookshelf combines a matte-black powder-coated steel frame with 1.5-inch thick engineered wood shelves finished in a distressed walnut veneer. Each shelf boasts a 50 lb weight capacity. Includes anti-tip wall anchoring hardware.",
+      "price": 135.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "IronBuild",
+      "image_url": "https://source.unsplash.com/400x400/?industrial+ladder+bookshelf&sig=305"
+    },
+    {
+      "sku": "SKU-306",
+      "name": "Genuine Leather Power Recliner",
+      "description": "The ultimate relaxation station. Upholstered in top-grain Brazilian bovine leather on all seating surfaces. This recliner features an Okin dual-motor system for independent back and footrest adjustment, an articulated power headrest, and an integrated USB-A/USB-C charging port panel.",
+      "price": 799.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "LuxeHome",
+      "image_url": "https://source.unsplash.com/400x400/?leather+power+recliner&sig=306"
+    },
+    {
+      "sku": "SKU-307",
+      "name": "Floating TV Entertainment Center",
+      "description": "A sleek, space-saving media console. Designed to accommodate TVs up to 75 inches. Measuring 70 inches wide and 12 inches deep, it features a high-gloss UV-painted MDF exterior, two soft-close drop-down cabinet doors, and hidden rear cable management channels. Rated for up to 120 lbs wall-mounted.",
+      "price": 220.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?floating+entertainment+center&sig=307"
+    },
+    {
+      "sku": "SKU-308",
+      "name": "Upholstered Storage Platform Bed (Queen)",
+      "description": "Maximize your bedroom square footage. This Queen-sized platform bed features a 48-inch tall biscuit-tufted linen headboard and a hydraulic gas-lift mechanism that raises the mattress to reveal a massive 10-inch deep, dust-lined under-bed storage compartment. No box spring required.",
+      "price": 540.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?storage+platform+queen&sig=308"
+    },
+    {
+      "sku": "SKU-309",
+      "name": "Lift-Top Walnut Coffee Table",
+      "description": "Work or dine right from your sofa. Constructed from premium walnut veneers over an MDF core, this 42x22-inch coffee table features a heavy-duty pneumatic lift mechanism that silently raises the tabletop from 18 to 25 inches, revealing a hidden compartmentalized storage area.",
+      "price": 195.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "UrbanLiving",
+      "image_url": "https://source.unsplash.com/400x400/?walnut+coffee+table&sig=309"
+    },
+    {
+      "sku": "SKU-310",
+      "name": "Mid-Century Bentwood Dining Chairs (Set of 2)",
+      "description": "Iconic retro curves for your dining space. These chairs are molded from a single continuous piece of 7-ply ash wood veneer using high-pressure steam bending. They feature a matte black finish, chrome-plated tubular steel legs with floor-protecting glides, and stack up to 4 high.",
+      "price": 160.0,
+      "stock_quantity": 100,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ModaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?bentwood+dining+chairs&sig=310"
+    },
+    {
+      "sku": "SKU-311",
+      "name": "Mirrored 6-Drawer Double Dresser",
+      "description": "Add Hollywood glamour and reflect natural light. This 55-inch wide dresser is constructed from an engineered wood frame completely clad in beveled, shatter-resistant glass mirror panels. The 6 drawers feature full-extension ball-bearing glides and faceted crystal-acrylic knobs.",
+      "price": 680.0,
+      "stock_quantity": 18,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "LuxeHome",
+      "image_url": "https://source.unsplash.com/400x400/?drawer+double+dresser&sig=311"
+    },
+    {
+      "sku": "SKU-312",
+      "name": "Smart LED Nightstand with Wireless Charging",
+      "description": "Next-generation bedside convenience. This compact 18x16x22-inch nightstand features an integrated 15W Qi-certified wireless charging pad flush with the tempered glass top. It includes two drawers, an auto-sensing bottom motion-activated LED nightlight, and built-in dual Bluetooth speakers.",
+      "price": 145.0,
+      "stock_quantity": 70,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "TechDecor",
+      "image_url": "https://source.unsplash.com/400x400/?nightstand+wireless+charging&sig=312"
+    },
+    {
+      "sku": "SKU-313",
+      "name": "L-Shaped Corner Gaming Desk",
+      "description": "Dominate your virtual battles with maximum surface area. Measuring 65 by 50 inches, this desk features a carbon-fiber textured waterproof desktop supported by a Z-shape cold-rolled steel frame. Includes a full-surface customized mouse pad, cup holder, headphone hook, and a 200 lb weight limit.",
+      "price": 210.0,
+      "stock_quantity": 50,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?corner+gaming+desk&sig=313"
+    },
+    {
+      "sku": "SKU-314",
+      "name": "Faux Leather Swivel Bar Stools (Set of 2)",
+      "description": "Versatile seating for kitchen islands and home bars. Equipped with an SGS-certified pneumatic cylinder, adjusting the seat height smoothly from 24 to 32 inches. The 360-degree swivel bucket seats are upholstered in scratch-resistant polyurethane faux leather with a 15-inch trumpet base.",
+      "price": 120.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "UrbanLiving",
+      "image_url": "https://source.unsplash.com/400x400/?leather+swivel+stools&sig=314"
+    },
+    {
+      "sku": "SKU-315",
+      "name": "Tufted Chesterfield Loveseat",
+      "description": "British aristocratic charm for compact spaces. This 62-inch wide loveseat showcases iconic deep button diamond tufting, equal-height rolled back and arms, and hand-applied antiqued brass nailhead trim. Upholstered in top-grain vintage brown leather with solid turned mahogany legs.",
+      "price": 1150.0,
+      "stock_quantity": 12,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?tufted+chesterfield+loveseat&sig=315"
+    },
+    {
+      "sku": "SKU-316",
+      "name": "Tempered Glass Round Dining Table",
+      "description": "Create an illusion of space in your dining area. Features a 48-inch diameter, 3/8-inch thick clear tempered glass top with a smooth polished flat edge. It is supported by an architectural intersecting base made of heavy-gauge steel tubes finished in brushed gold.",
+      "price": 340.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?round+dining+table&sig=316"
+    },
+    {
+      "sku": "SKU-317",
+      "name": "3-Tier Rolling Metal Bar Cart",
+      "description": "Entertain with mobility and vintage flair. This 32x16x34-inch cart is constructed with an iron frame in a blackened bronze finish. It features three mirrored glass tiers, dedicated wine rack holders for 6 bottles, under-shelf stemware racks for 9 glasses, and 4 locking caster wheels.",
+      "price": 115.0,
+      "stock_quantity": 65,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "UrbanLiving",
+      "image_url": "https://source.unsplash.com/400x400/?rolling+metal+cart&sig=317"
+    },
+    {
+      "sku": "SKU-318",
+      "name": "Outdoor Wicker Patio Sectional",
+      "description": "Transform your backyard into a resort. This 5-piece modular set is hand-woven using high-density polyethylene (HDPE) all-weather resin wicker over a rust-proof aluminum frame. Includes 4-inch thick sponge cushions covered in UV-resistant, water-repellent Olefin fabric with removable, washable covers.",
+      "price": 850.0,
+      "stock_quantity": 20,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "SunCoast",
+      "image_url": "https://source.unsplash.com/400x400/?wicker+patio+sectional&sig=318"
+    },
+    {
+      "sku": "SKU-319",
+      "name": "Fireproof Steel Vertical File Cabinet",
+      "description": "Secure your most important documents. This 2-drawer legal/letter size cabinet is UL-certified to withstand fires up to 1700°F for one hour. Features double-walled heavy-gauge steel construction filled with proprietary fire-retardant insulation, and a high-security Medeco lock mechanism.",
+      "price": 520.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "IronBuild",
+      "image_url": "https://source.unsplash.com/400x400/?vertical+file+cabinet&sig=319"
+    },
+    {
+      "sku": "SKU-320",
+      "name": "Woven Rattan Accent Chair",
+      "description": "Bring bohemian coastal vibes indoors. The seat and backrest are intricately hand-caned using natural Indonesian rattan on a solid kiln-dried mindi wood frame with a clear matte sealant. Measures 28 inches wide with a deeply reclined profile perfect for lounging.",
+      "price": 260.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "EarthyHome",
+      "image_url": "https://source.unsplash.com/400x400/?rattan+accent+chair&sig=320"
+    },
+    {
+      "sku": "SKU-321",
+      "name": "Live-Edge Acacia Wood Console Table",
+      "description": "A truly unique entryway statement. The 48-inch long tabletop is crafted from a single 2-inch thick slab of sustainably sourced solid Acacia wood, preserving the natural undulating contours of the tree's outer bark line. Supported by black powder-coated cast iron hairpin legs.",
+      "price": 380.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?wood+console+table&sig=321"
+    },
+    {
+      "sku": "SKU-322",
+      "name": "Convertible Futon Sleeper Sofa",
+      "description": "Functional design for studio apartments and guest rooms. Features a click-clack mechanism that easily adjusts the backrest between 105, 140, and 180 degrees. Upholstered in dark grey polyester linen, it transforms into a 70x42-inch twin-sized bed. Includes two cylindrical bolster pillows.",
+      "price": 215.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "UrbanLiving",
+      "image_url": "https://source.unsplash.com/400x400/?futon+sleeper+sofa&sig=322"
+    },
+    {
+      "sku": "SKU-323",
+      "name": "Bamboo Freestanding Coat Rack",
+      "description": "Eco-friendly hallway organization. Standing 68 inches tall, this tripod-base coat rack is made from 100% solid Moso bamboo. It features 9 staggered cylindrical hooks, each capable of holding 10 lbs, finished in a smooth, non-toxic clear varnish to prevent snagging delicate fabrics.",
+      "price": 45.0,
+      "stock_quantity": 120,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "EcoTouch",
+      "image_url": "https://source.unsplash.com/400x400/?freestanding+coat+rack&sig=323"
+    },
+    {
+      "sku": "SKU-324",
+      "name": "Velvet Scalloped Shell Accent Chair",
+      "description": "A touch of Art Deco glamour. The distinctive curved backrest mimics the ridges of a seashell, densely padded with high-resiliency foam. Upholstered in blush pink velvet and supported by four tapered, gold-finished stainless steel legs. Seat height is 18.5 inches.",
+      "price": 185.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ModaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?shell+accent+chair&sig=324"
+    },
+    {
+      "sku": "SKU-325",
+      "name": "High-Back Executive Leather Office Chair",
+      "description": "Command your workspace in ultimate luxury. Fully upholstered in supple black bonded leather with double-stitched diamond quilting. Features heavily padded armrests, a heavy-duty 5-star aluminum base supporting up to 350 lbs, and a heavy-duty tilt-tension control knob.",
+      "price": 299.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?leather+office+chair&sig=325"
+    },
+    {
+      "sku": "SKU-326",
+      "name": "Heavy-Duty Metal Bunk Bed (Twin over Twin)",
+      "description": "Space-saving sleep solution built to last. Constructed from 2-inch thick tubular steel with a matte black powder coat. Features a reinforced 22-slat mattress support system per bed (no box spring needed), full-length 12.5-inch upper guardrails, and two integrated, anti-slip side ladders. 400 lb capacity per bunk.",
+      "price": 240.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "IronBuild",
+      "image_url": "https://source.unsplash.com/400x400/?twin+over+twin&sig=326"
+    },
+    {
+      "sku": "SKU-327",
+      "name": "Rustic Farmhouse Buffet Sideboard",
+      "description": "Generous storage wrapped in country charm. Measuring 60 inches wide, this sideboard is crafted from solid pine with a distressed whitewash finish and a contrasting dark oak top. Includes two sliding barn doors mounted on raw iron track hardware, revealing three adjustable shelves.",
+      "price": 415.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?farmhouse+buffet+sideboard&sig=327"
+    },
+    {
+      "sku": "SKU-328",
+      "name": "Oval Marble Top Tulip Table",
+      "description": "Iconic mid-century silhouette that eliminates leg-clutter. Features a 60x40-inch oval top carved from authentic 3/4-inch thick Italian Carrara marble with grey veining, sealed against stains. It sits securely on a single, heavy cast-aluminum pedestal base finished in gloss white enamel.",
+      "price": 980.0,
+      "stock_quantity": 10,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "ModaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?marble+tulip+table&sig=328"
+    },
+    {
+      "sku": "SKU-329",
+      "name": "Solid Pine Wood Wardrobe Armoire",
+      "description": "Traditional free-standing closet space. Standing 72 inches tall and 40 inches wide, this wardrobe is made entirely of solid Brazilian pine. Features two raised-panel doors that open to a heavy-duty wooden hanging rod and one large bottom drawer with dovetail joints and wood-on-wood glides.",
+      "price": 450.0,
+      "stock_quantity": 20,
+      "delivery_time_hours": 96,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?wood+wardrobe+armoire&sig=329"
+    },
+    {
+      "sku": "SKU-330",
+      "name": "Geometric Asymmetrical Bookcase",
+      "description": "A modern display for books and curiosities. Standing 63 inches tall, this backless bookcase features a striking S-shape layout with 5 staggered tiers of varying widths. Crafted from 0.7-inch thick high-density engineered wood wrapped in a scratch-resistant melamine finish.",
+      "price": 110.0,
+      "stock_quantity": 80,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?geometric+asymmetrical+bookcase&sig=330"
+    },
+    {
+      "sku": "SKU-331",
+      "name": "Folding Tray Table Set with Stand",
+      "description": "Classic convenience for TV dinners or laptop work. This 5-piece set includes 4 foldable tray tables and 1 matching storage stand with an integrated carrying handle. Constructed entirely from solid rubberwood with a rich espresso finish. Each tabletop measures 19 by 14.5 inches.",
+      "price": 65.0,
+      "stock_quantity": 110,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?tray+table+stand&sig=331"
+    },
+    {
+      "sku": "SKU-332",
+      "name": "Zero-Gravity Outdoor Lounge Chair",
+      "description": "Experience weightlessness on your patio. This chair elevates your legs to heart level to relieve spinal pressure. Features a rust-resistant steel frame bungee-suspended to a UV-resistant Textilene mesh seat. Includes a multi-angle locking mechanism, a sliding headrest pillow, and a detachable cup holder tray.",
+      "price": 75.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "SunCoast",
+      "image_url": "https://source.unsplash.com/400x400/?outdoor+lounge+chair&sig=332"
+    },
+    {
+      "sku": "SKU-333",
+      "name": "Upholstered Storage Ottoman Bench",
+      "description": "Multi-functional elegance for the foot of your bed. This 48-inch long rectangular bench features a plush 2.5-inch thick foam top upholstered in beige linen with blind tufting. The hinged lid utilizes dual pneumatic stays to stay safely open, revealing a fully lined 3.5 cubic foot storage bay.",
+      "price": 140.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?storage+ottoman+bench&sig=333"
+    },
+    {
+      "sku": "SKU-334",
+      "name": "Minimalist Floating Wall Shelves (Set of 3)",
+      "description": "Clean lines for displaying decor without visible hardware. This set includes three U-shaped MDF shelves measuring 12, 16, and 24 inches in length. Finished in matte white, they mount seamlessly to the wall via concealed heavy-duty steel brackets. Each shelf supports up to 15 lbs.",
+      "price": 32.0,
+      "stock_quantity": 150,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?floating+wall+shelves&sig=334"
+    },
+    {
+      "sku": "SKU-335",
+      "name": "Wicker Egg Swing Chair with Stand",
+      "description": "A cozy, suspended retreat for indoors or outdoors. The teardrop-shaped egg basket is woven from weather-resistant PE rattan. It hangs from a heavy-duty, bronze-coated steel C-stand via a robust extension spring, supporting up to 350 lbs. Includes a deeply tufted, washable polyester cushion.",
+      "price": 285.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 72,
+      "category": "furniture",
+      "brand": "EarthyHome",
+      "image_url": "https://source.unsplash.com/400x400/?swing+chair+stand&sig=335"
+    },
+    {
+      "sku": "SKU-336",
+      "name": "Acrylic Ghost Dining Chair",
+      "description": "The perfect blend of baroque design and modern materials. Injection-molded from a single piece of premium transparent polycarbonate, making it highly durable, shatter-resistant, and entirely waterproof. Its invisible footprint makes small dining areas appear significantly larger. Stackable up to 6 high.",
+      "price": 95.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ModaDecor",
+      "image_url": "https://source.unsplash.com/400x400/?ghost+dining+chair&sig=336"
+    },
+    {
+      "sku": "SKU-337",
+      "name": "Vintage Distressed Wood Vanity Desk",
+      "description": "A dedicated space for your morning routine. Measuring 42 inches wide, this vanity is constructed from distressed solid fir wood with a grey-wash finish. It features two felt-lined side drawers for jewelry, a central wide drawer for makeup palettes, and an adjustable oval swivel mirror.",
+      "price": 245.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "HeritageWood",
+      "image_url": "https://source.unsplash.com/400x400/?wood+vanity+desk&sig=337"
+    },
+    {
+      "sku": "SKU-338",
+      "name": "Memory Foam Bean Bag Chair (5-Foot)",
+      "description": "Unmatched casual comfort that never goes flat. Unlike traditional polystyrene beads, this massive 5-foot diameter lounger is generously stuffed with premium shredded memory foam that conforms to your body. Covered in a machine-washable, ultra-soft micro-suede outer shell with double-stitched seams.",
+      "price": 165.0,
+      "stock_quantity": 50,
+      "delivery_time_hours": 48,
+      "category": "furniture",
+      "brand": "CozyBase",
+      "image_url": "https://source.unsplash.com/400x400/?bean+chair+foot&sig=338"
+    },
+    {
+      "sku": "SKU-339",
+      "name": "Modern Hexagonal Glass Side Table",
+      "description": "Geometric accenting for contemporary living rooms. Features a 3/8-inch thick clear tempered glass top cut into a perfect hexagon, measuring 20 inches across. The structural frame is welded from thin but strong steel rods finished in an electroplated brushed brass, creating an open, airy base.",
+      "price": 85.0,
+      "stock_quantity": 65,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ModernAura",
+      "image_url": "https://source.unsplash.com/400x400/?glass+side+table&sig=339"
+    },
+    {
+      "sku": "SKU-340",
+      "name": "Adjustable Drafting Stool with Footring",
+      "description": "Designed for standing desks, drafting tables, and lab benches. Features an extended pneumatic height adjustment ranging from 22 to 32 inches. The 16-inch wide saddle seat is upholstered in easy-to-clean vinyl. Includes a 20-inch diameter height-adjustable chrome footring and dual-wheel nylon casters.",
+      "price": 130.0,
+      "stock_quantity": 75,
+      "delivery_time_hours": 24,
+      "category": "furniture",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?drafting+stool+footring&sig=340"
+    },
+    {
+      "sku": "SKU-401",
+      "name": "Hybrid Active Noise-Cancelling Headphones",
+      "description": "Immerse yourself in high-fidelity audio without distractions. Featuring custom 40mm beryllium-coated drivers and advanced Bluetooth 5.3, these over-ear headphones deliver a 45-hour battery life and utilize a 4-mic array to block up to 40dB of ambient noise.",
+      "price": 249.99,
+      "stock_quantity": 120,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?noise+cancelling+headphones&sig=401"
+    },
+    {
+      "sku": "SKU-402",
+      "name": "6.7-inch Flagship OLED Smartphone",
+      "description": "Unleash ultimate performance and photography. Powered by the latest Snapdragon 8 Gen 3 chipset, it boasts a 120Hz LTPO display, a 50MP triple-lens camera system with 5x optical zoom, and 120W fast-charging that reaches 100% in just 19 minutes.",
+      "price": 999.0,
+      "stock_quantity": 45,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "TechNova",
+      "image_url": "https://source.unsplash.com/400x400/?flagship+oled+smartphone&sig=402"
+    },
+    {
+      "sku": "SKU-403",
+      "name": "14-inch Ultra-Slim Creator Laptop",
+      "description": "Desktop power in a 1.2kg magnesium-alloy chassis. Equipped with an Intel Core Ultra 7 processor, 32GB LPDDR5X RAM, and a 1TB PCIe 4.0 NVMe SSD. The stunning 2.8K OLED touchscreen delivers 100% DCI-P3 color accuracy for creative professionals.",
+      "price": 1499.0,
+      "stock_quantity": 30,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "NexisCompute",
+      "image_url": "https://source.unsplash.com/400x400/?slim+creator+laptop&sig=403"
+    },
+    {
+      "sku": "SKU-404",
+      "name": "Lossless True Wireless Earbuds",
+      "description": "Audiophile-grade sound on the go. These TWS earbuds support the aptX Lossless codec via 10mm dynamic drivers. Features include multipoint pairing, an IPX4 splash-proof rating, and a wireless charging case that extends total playtime to 30 hours.",
+      "price": 149.0,
+      "stock_quantity": 210,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?true+wireless+earbuds&sig=404"
+    },
+    {
+      "sku": "SKU-405",
+      "name": "Rugged 4K Action Camera",
+      "description": "Capture your extreme adventures in crystal-clear detail. Records in 4K at 120fps with a large 1/1.9-inch sensor. Features FlowState 6-axis gyroscopic stabilization, voice control, and is natively waterproof down to 33 feet (10m) without external housing.",
+      "price": 349.99,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "VividCam",
+      "image_url": "https://source.unsplash.com/400x400/?rugged+action+camera&sig=405"
+    },
+    {
+      "sku": "SKU-406",
+      "name": "27-inch 1440p 165Hz Gaming Monitor",
+      "description": "Gain the competitive edge with tear-free, fluid visuals. This Fast IPS panel offers a 1ms (GtG) response time, 165Hz refresh rate, and is both G-Sync and FreeSync Premium compatible. Covers 98% of the DCI-P3 color gamut with HDR400 certification.",
+      "price": 279.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "PixelPerfect",
+      "image_url": "https://source.unsplash.com/400x400/?165hz+gaming+monitor&sig=406"
+    },
+    {
+      "sku": "SKU-407",
+      "name": "Tri-Band Wi-Fi 6E Mesh Router System",
+      "description": "Blanket your entire home in multi-gigabit wireless speeds. This 2-pack system utilizes the uncongested 6GHz band to deliver speeds up to 5.4Gbps across 5,500 square feet. Includes a 2.5G WAN port and WPA3 security protocols.",
+      "price": 299.5,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "NetCore",
+      "image_url": "https://source.unsplash.com/400x400/?mesh+router+system&sig=407"
+    },
+    {
+      "sku": "SKU-408",
+      "name": "2TB Portable NVMe External SSD",
+      "description": "Massive storage with blazing-fast transfers. Utilizing the USB 3.2 Gen 2x2 interface, it hits sequential read/write speeds of up to 2000MB/s. Encased in a ruggedized silicone bumper, it is IP65 rated against water and dust and survives 3-meter drops.",
+      "price": 185.0,
+      "stock_quantity": 150,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "DataVault",
+      "image_url": "https://source.unsplash.com/400x400/?portable+nvme+external&sig=408"
+    },
+    {
+      "sku": "SKU-409",
+      "name": "100W GaN 4-Port Fast Wall Charger",
+      "description": "Power all your devices from a single pocket-sized brick. Utilizing Gallium Nitride (GaN) technology, this charger features 3 USB-C PD ports and 1 USB-A port. Supports PPS fast charging to intelligently distribute 100W across laptops, tablets, and phones.",
+      "price": 49.99,
+      "stock_quantity": 300,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "VoltTech",
+      "image_url": "https://source.unsplash.com/400x400/?fast+wall+charger&sig=409"
+    },
+    {
+      "sku": "SKU-410",
+      "name": "75% Wireless Mechanical Keyboard",
+      "description": "Premium typing experience for enthusiasts and gamers alike. Features a gasket-mounted CNC aluminum case, hot-swappable pre-lubed tactile switches, and double-shot PBT keycaps. Connect via low-latency 2.4GHz dongle, Bluetooth 5.1, or USB-C.",
+      "price": 129.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "KeyMaster",
+      "image_url": "https://source.unsplash.com/400x400/?wireless+mechanical+keyboard&sig=410"
+    },
+    {
+      "sku": "SKU-411",
+      "name": "Ultra-Lightweight Symmetrical Gaming Mouse",
+      "description": "Flick and track with absolute precision. Weighing a mere 55g without honeycomb holes, this mouse packs a 26,000 DPI optical sensor, pure PTFE glide feet, and optical micro-switches to eliminate double-clicking. The 80-hour battery charges via USB-C.",
+      "price": 89.99,
+      "stock_quantity": 115,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AimPro",
+      "image_url": "https://source.unsplash.com/400x400/?symmetrical+gaming+mouse&sig=411"
+    },
+    {
+      "sku": "SKU-412",
+      "name": "Smart Robot Vacuum and Sonic Mop",
+      "description": "Hands-free floor cleaning for up to 60 days. This hybrid utilizes LiDAR navigation to map multiple floors, boasts 5000Pa of suction power, and features a sonic vibrating mop pad to scrub dried stains. The auto-empty dock extracts dust into a 3L sealed bag.",
+      "price": 450.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 72,
+      "category": "electronics",
+      "brand": "HomeBot",
+      "image_url": "https://source.unsplash.com/400x400/?robot+vacuum+sonic&sig=412"
+    },
+    {
+      "sku": "SKU-413",
+      "name": "65-inch 4K OLED Smart TV",
+      "description": "Cinematic visuals with perfect, infinite black levels. This self-lit OLED panel features Dolby Vision IQ and Dolby Atmos audio. Built for next-gen gaming with four HDMI 2.1 ports supporting 4K @ 120Hz, VRR, and ALLM for latency-free console play.",
+      "price": 1599.0,
+      "stock_quantity": 20,
+      "delivery_time_hours": 96,
+      "category": "electronics",
+      "brand": "PixelPerfect",
+      "image_url": "https://source.unsplash.com/400x400/?oled+smart&sig=413"
+    },
+    {
+      "sku": "SKU-414",
+      "name": "Titanium GPS Multi-Sport Smartwatch",
+      "description": "Track your fitness in the harshest environments. Features a scratch-resistant sapphire crystal display bordered by a titanium bezel. Delivers up to 14 days of battery life in smartwatch mode, with multi-band GNSS tracking, VO2 max sensors, and offline topo maps.",
+      "price": 699.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "PeakMetrics",
+      "image_url": "https://source.unsplash.com/400x400/?multi+sport+smartwatch&sig=414"
+    },
+    {
+      "sku": "SKU-415",
+      "name": "11-inch Pro Creator Tablet",
+      "description": "A digital canvas that doubles as a laptop replacement. Powered by an 8-core desktop-class CPU, it features a 120Hz adaptive refresh rate display for zero-latency stylus drawing. Includes an ultra-wide 12MP front camera with center-stage auto-framing.",
+      "price": 799.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "NexisCompute",
+      "image_url": "https://source.unsplash.com/400x400/?creator+tablet&sig=415"
+    },
+    {
+      "sku": "SKU-416",
+      "name": "10,000mAh Magnetic Wireless Power Bank",
+      "description": "Snap on and charge instantly. Designed specifically for MagSafe-compatible phones, this slim aluminum battery pack outputs 15W wirelessly or 20W via the USB-C PD port. Features an integrated foldable zinc-alloy kickstand for content viewing while charging.",
+      "price": 45.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "VoltTech",
+      "image_url": "https://source.unsplash.com/400x400/?wireless+power+bank&sig=416"
+    },
+    {
+      "sku": "SKU-417",
+      "name": "7.1.4 Channel Dolby Atmos Soundbar System",
+      "description": "True 3D surround sound for your living room. This 800W system includes a main soundbar with dedicated up-firing and side-firing drivers, two wireless rear satellite speakers, and a massive 10-inch wireless subwoofer. Connects seamlessly via HDMI eARC.",
+      "price": 850.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 72,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?atmos+soundbar+system&sig=417"
+    },
+    {
+      "sku": "SKU-418",
+      "name": "6.8-inch Waterproof E-Ink Reader",
+      "description": "Read comfortably in any lighting condition. The 300 ppi glare-free screen features an adjustable warm light to reduce eye strain at night. With 32GB of storage, weeks of battery life, and an IPX8 waterproof rating, it is perfect for reading in the bath or by the pool.",
+      "price": 139.99,
+      "stock_quantity": 100,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "PageTurner",
+      "image_url": "https://source.unsplash.com/400x400/?waterproof+reader&sig=418"
+    },
+    {
+      "sku": "SKU-419",
+      "name": "Premium Foldable Dual-Screen Smartphone",
+      "description": "The future of multitasking in your pocket. The robust teardrop hinge unfolds to reveal a massive 7.6-inch flexible LTPO AMOLED inner display, while the 6.2-inch outer screen handles quick tasks. Features an under-display selfie camera and active stylus support.",
+      "price": 1799.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "TechNova",
+      "image_url": "https://source.unsplash.com/400x400/?dual+screen+smartphone&sig=419"
+    },
+    {
+      "sku": "SKU-420",
+      "name": "1080p Smart Pan/Tilt Indoor Camera",
+      "description": "Keep an eye on pets and home security from anywhere. This Wi-Fi camera provides 360-degree horizontal rotation, starlight color night vision, and AI-powered human/pet tracking. Supports two-way audio and local storage via a microSD slot up to 256GB.",
+      "price": 34.5,
+      "stock_quantity": 250,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "HomeBot",
+      "image_url": "https://source.unsplash.com/400x400/?tilt+indoor+camera&sig=420"
+    },
+    {
+      "sku": "SKU-421",
+      "name": "Waterproof 30W Portable Bluetooth Speaker",
+      "description": "Massive 360-degree sound in a rugged cylinder. Equipped with dual passive radiators for deep bass, this IP67 water and dust-proof speaker floats in water. The 20-hour battery keeps the party going, and it can sync with up to 100 compatible speakers via PartyMode.",
+      "price": 89.0,
+      "stock_quantity": 140,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?portable+bluetooth+speaker&sig=421"
+    },
+    {
+      "sku": "SKU-422",
+      "name": "Learning Smart Wi-Fi Thermostat",
+      "description": "Slash your heating and cooling bills automatically. This Energy Star certified thermostat learns your schedule and temperature preferences over time. Includes remote app control, geofencing, HVAC system monitoring, and compatibility with Alexa and Google Assistant.",
+      "price": 199.0,
+      "stock_quantity": 70,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "EcoClimate",
+      "image_url": "https://source.unsplash.com/400x400/?learning+smart+thermostat&sig=422"
+    },
+    {
+      "sku": "SKU-423",
+      "name": "Ultra-Lightweight 4K Mini Drone",
+      "description": "Pro-level aerial photography without the registration hassle. Weighing exactly 249g, this foldable drone shoots 4K/60fps video stabilized by a 3-axis mechanical gimbal. Offers a 34-minute max flight time, Level 5 wind resistance, and automated quick-shot flight paths.",
+      "price": 499.0,
+      "stock_quantity": 35,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AeroView",
+      "image_url": "https://source.unsplash.com/400x400/?lightweight+mini+drone&sig=423"
+    },
+    {
+      "sku": "SKU-424",
+      "name": "15.6-inch Portable USB-C Monitor",
+      "description": "Instantly double your laptop screen real estate. This ultra-slim 1080p IPS panel weighs just 1.7 lbs and requires only a single USB-C cable for both power and video transmission. Includes 10-point multi-touch capability and an integrated magnetic smart-cover kickstand.",
+      "price": 165.0,
+      "stock_quantity": 90,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "PixelPerfect",
+      "image_url": "https://source.unsplash.com/400x400/?portable+monitor&sig=424"
+    },
+    {
+      "sku": "SKU-425",
+      "name": "4K HDR Wi-Fi 6 Streaming Stick",
+      "description": "Upgrade your older TV to a lightning-fast smart hub. Plugs directly into an HDMI port to deliver smooth 4K Ultra HD video with HDR10+ and Dolby Vision support. Features a quad-core processor, 2GB of RAM, Wi-Fi 6 connectivity, and a voice-activated remote control.",
+      "price": 49.99,
+      "stock_quantity": 300,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "StreamCast",
+      "image_url": "https://source.unsplash.com/400x400/?streaming+stick&sig=425"
+    },
+    {
+      "sku": "SKU-426",
+      "name": "8-in-1 USB-C Multiport Hub adapter",
+      "description": "Restore the missing ports on your modern ultrabook. Encased in space-grey aluminum, this hub expands a single USB-C port into a 4K@60Hz HDMI output, Gigabit Ethernet, SD/MicroSD card readers, two USB-A 3.0 ports, and a 100W PD pass-through charging port.",
+      "price": 38.0,
+      "stock_quantity": 220,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "VoltTech",
+      "image_url": "https://source.unsplash.com/400x400/?multiport+adapter&sig=426"
+    },
+    {
+      "sku": "SKU-427",
+      "name": "4K Ultra HD AI Webcam",
+      "description": "Look your absolute best on video calls and streams. Driven by a large Sony STARVIS sensor, it provides excellent low-light performance and HDR. Features AI auto-framing to keep you centered, dual noise-reducing stereo microphones, and a physical privacy shutter.",
+      "price": 129.5,
+      "stock_quantity": 75,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "VividCam",
+      "image_url": "https://source.unsplash.com/400x400/?webcam&sig=427"
+    },
+    {
+      "sku": "SKU-428",
+      "name": "High-Res Portable Digital Audio Player (DAP)",
+      "description": "A dedicated device for uncompromised sound quality. Features dual ESS9219C DAC chips, native DSD256 hardware decoding, and MQA support. Includes both 3.5mm single-ended and 2.5mm balanced headphone outputs, plus two-way LDAC Bluetooth for wireless hi-res.",
+      "price": 249.0,
+      "stock_quantity": 40,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?digital+audio+player&sig=428"
+    },
+    {
+      "sku": "SKU-429",
+      "name": "Smart Wi-Fi Color LED Bulbs (2-Pack)",
+      "description": "Transform your room's atmosphere instantly. These standard A19/E26 bulbs output 800 lumens (60W equivalent) and offer 16 million colors plus tunable white (2700K-6500K). Connect directly to your 2.4GHz Wi-Fi with no separate hub required. Voice assistant compatible.",
+      "price": 24.99,
+      "stock_quantity": 400,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "LuminaSmart",
+      "image_url": "https://source.unsplash.com/400x400/?smart+color+bulbs&sig=429"
+    },
+    {
+      "sku": "SKU-430",
+      "name": "Full-Frame Mirrorless Camera Body",
+      "description": "Professional hybrid performance for stills and video. The 24.2MP BSI-CMOS sensor is paired with a 5-axis In-Body Image Stabilization (IBIS) system providing 7 stops of compensation. Shoots 10fps bursts with deep-learning AI subject-tracking autofocus and 4K 10-bit video.",
+      "price": 1999.0,
+      "stock_quantity": 15,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "OpticPro",
+      "image_url": "https://source.unsplash.com/400x400/?mirrorless+camera+body&sig=430"
+    },
+    {
+      "sku": "SKU-431",
+      "name": "Next-Gen 4K Gaming Console",
+      "description": "The pinnacle of living room entertainment. Built around a custom 8-core Zen 2 processor and 10.3 TFLOPS RDNA 2 GPU, allowing for hardware-accelerated ray tracing and 4K gameplay at 120Hz. The 1TB custom NVMe SSD virtually eliminates loading screens.",
+      "price": 499.0,
+      "stock_quantity": 25,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "GameBox",
+      "image_url": "https://source.unsplash.com/400x400/?next+gaming+console&sig=431"
+    },
+    {
+      "sku": "SKU-432",
+      "name": "FDM 3D Printer with Auto Bed Leveling",
+      "description": "Turn digital files into physical objects effortlessly. This Cartesian 3D printer features a 220x220x250mm build volume, a direct drive extruder for flexible filaments, and a 16-point automatic bed leveling system. Silent stepper motor drivers keep printing noise under 50dB.",
+      "price": 220.0,
+      "stock_quantity": 60,
+      "delivery_time_hours": 72,
+      "category": "electronics",
+      "brand": "MakerTech",
+      "image_url": "https://source.unsplash.com/400x400/?printer+auto+leveling&sig=432"
+    },
+    {
+      "sku": "SKU-433",
+      "name": "8-inch Smart Display Hub",
+      "description": "The visual command center for your smart home. Control compatible lights, cameras, and thermostats from an intuitive 8-inch HD touchscreen. Features an integrated 13MP camera with auto-framing for video calls, stereo speakers, and a physical camera privacy shutter.",
+      "price": 129.0,
+      "stock_quantity": 130,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "HomeBot",
+      "image_url": "https://source.unsplash.com/400x400/?smart+display&sig=433"
+    },
+    {
+      "sku": "SKU-434",
+      "name": "Standalone Mixed Reality VR Headset",
+      "description": "Step into new worlds without being tethered to a PC. Powered by the Snapdragon XR2 Gen 2 chip, offering dual 4K+ displays at a buttery 120Hz refresh rate. Full-color, high-resolution passthrough cameras allow for seamless blending of virtual objects with your physical room.",
+      "price": 499.0,
+      "stock_quantity": 50,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "MetaSpace",
+      "image_url": "https://source.unsplash.com/400x400/?mixed+reality+headset&sig=434"
+    },
+    {
+      "sku": "SKU-435",
+      "name": "Dual-Channel 4K Dash Camera",
+      "description": "Reliable eyewitness protection for your vehicle. The front camera records in ultra-crisp 4K UHD via a 170-degree wide-angle lens, while the rear camera covers 1080p. Uses a supercapacitor instead of a lithium battery to withstand extreme summer windshield temperatures.",
+      "price": 145.0,
+      "stock_quantity": 110,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "SafeDrive",
+      "image_url": "https://source.unsplash.com/400x400/?channel+dash+camera&sig=435"
+    },
+    {
+      "sku": "SKU-436",
+      "name": "Budget 6.5-inch 90Hz Smartphone",
+      "description": "Unbeatable value for everyday use. Features a smooth 6.5-inch 90Hz LCD screen, a power-efficient octa-core processor, and a massive 5000mAh battery that easily lasts two days. Includes 128GB of internal storage, a dedicated microSD slot, and a 3.5mm headphone jack.",
+      "price": 199.0,
+      "stock_quantity": 180,
+      "delivery_time_hours": 12,
+      "category": "electronics",
+      "brand": "TechNova",
+      "image_url": "https://source.unsplash.com/400x400/?budget+90hz+smartphone&sig=436"
+    },
+    {
+      "sku": "SKU-437",
+      "name": "32GB (2x16GB) DDR5 6000MHz Desktop RAM",
+      "description": "Push your custom PC build to the absolute limit. This dual-channel memory kit runs at blistering 6000MT/s speeds with a tight CL30 CAS latency. Features low-profile, brushed aluminum heat spreaders and supports both Intel XMP 3.0 and AMD EXPO overclocking profiles.",
+      "price": 115.0,
+      "stock_quantity": 85,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "CoreMemory",
+      "image_url": "https://source.unsplash.com/400x400/?ddr5+6000mhz+desktop&sig=437"
+    },
+    {
+      "sku": "SKU-438",
+      "name": "850W ATX 3.0 Fully Modular Power Supply",
+      "description": "Stable, efficient power for high-end graphics cards. 80 Plus Gold certified for 90%+ efficiency. This ATX 3.0 compliant PSU includes a native 16-pin 12VHPWR connector capable of delivering 600W. Features 100% Japanese capacitors and a Zero RPM fan mode for silent operation.",
+      "price": 139.99,
+      "stock_quantity": 70,
+      "delivery_time_hours": 48,
+      "category": "electronics",
+      "brand": "VoltTech",
+      "image_url": "https://source.unsplash.com/400x400/?modular+power+supply&sig=438"
+    },
+    {
+      "sku": "SKU-439",
+      "name": "Dynamic USB/XLR Podcasting Microphone",
+      "description": "Broadcast-quality vocals out of the box. This dynamic microphone utilizes a tight cardioid polar pattern to reject background room noise. Offers versatile connectivity with both analog XLR and digital USB-C outputs. Features a built-in pop filter and a touch-to-mute sensor.",
+      "price": 169.0,
+      "stock_quantity": 55,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "AcousticPro",
+      "image_url": "https://source.unsplash.com/400x400/?dynamic+podcasting+microphone&sig=439"
+    },
+    {
+      "sku": "SKU-440",
+      "name": "Dual Monitor Gas Spring Desk Mount",
+      "description": "Free up valuable desk space and improve ergonomics. Heavy-duty aluminum arms support two screens from 13 to 32 inches, weighing up to 19.8 lbs each. The automotive-grade gas springs allow for effortless height, tilt, swivel, and 360-degree rotation adjustments.",
+      "price": 59.5,
+      "stock_quantity": 145,
+      "delivery_time_hours": 24,
+      "category": "electronics",
+      "brand": "ErgoDesks",
+      "image_url": "https://source.unsplash.com/400x400/?spring+desk+mount&sig=440"
+    }
+  ],
+  "users": {
+    "USER#123": {
+      "user_id": "USER#123",
+      "full_name": "Hackathon Tester",
+      "email": "test@frictionless.app",
+      "shipping_address": "Room 402, North Hostel Block",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-9982",
+          "purchase_date": "2026-05-10T14:22:00Z",
+          "total_amount": 44.49,
+          "items_purchased": [
+            {
+              "sku": "SKU-017",
+              "name": "Razer DeathAdder Mouse",
+              "description": "High-precision optical gaming mouse with 5 programmable buttons.",
+              "price": 29.99,
+              "stock_quantity": 90,
+              "delivery_time_hours": 2,
+              "category": "electronics",
+              "brand": "Razer",
+              "image_url": "https://example.com/img/razer.jpg"
+            },
+            {
+              "sku": "SKU-018",
+              "name": "Heavy-Duty Paper Towels",
+              "description": "Ultra-absorbent 2-ply paper towels for cleaning up major spills.",
+              "price": 14.5,
+              "stock_quantity": 400,
+              "delivery_time_hours": 2,
+              "category": "cleaning",
+              "brand": "Brawny",
+              "image_url": "https://example.com/img/towels.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-8841",
+          "purchase_date": "2026-01-15T09:10:00Z",
+          "total_amount": 24.5,
+          "items_purchased": [
+            {
+              "sku": "SKU-003",
+              "name": "Plant-Protein Snack Bars (12-Pack)",
+              "description": "100% vegetarian protein bars made with pea protein and almonds. Perfect energy boost.",
+              "price": 24.5,
+              "stock_quantity": 200,
+              "delivery_time_hours": 2,
+              "category": "food",
+              "brand": "GreenFuel",
+              "image_url": "https://example.com/img/protein-bars.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "USER#456": {
+      "user_id": "USER#456",
+      "full_name": "Priya Sharma",
+      "email": "priya@frictionless.app",
+      "shipping_address": "204, Sunrise Apartments, Bangalore",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-1101",
+          "purchase_date": "2026-06-01T10:00:00Z",
+          "total_amount": 163.99,
+          "items_purchased": [
+            {
+              "sku": "SKU-006",
+              "name": "Over-Ear Noise Canceling Headphones",
+              "description": "Block out loud hostel or dorm noise. Features deep bass and 30-hour battery life.",
+              "price": 120.0,
+              "stock_quantity": 50,
+              "delivery_time_hours": 12,
+              "category": "electronics",
+              "brand": "SoundWave",
+              "image_url": "https://example.com/img/headphones.jpg"
+            },
+            {
+              "sku": "SKU-009",
+              "name": "Ergonomic Split Keyboard",
+              "description": "Reduce wrist strain during long full-stack coding sessions. Mechanical brown switches.",
+              "price": 115.0,
+              "stock_quantity": 30,
+              "delivery_time_hours": 48,
+              "category": "electronics",
+              "brand": "CodeKey",
+              "image_url": "https://example.com/img/keyboard.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-1102",
+          "purchase_date": "2026-04-20T08:30:00Z",
+          "total_amount": 39.99,
+          "items_purchased": [
+            {
+              "sku": "SKU-020",
+              "name": "Blue Light Blocking Glasses",
+              "description": "Reduces eye strain from staring at IDEs and monitors all night.",
+              "price": 19.99,
+              "stock_quantity": 75,
+              "delivery_time_hours": 12,
+              "category": "accessories",
+              "brand": "Optix",
+              "image_url": "https://example.com/img/glasses.jpg"
+            },
+            {
+              "sku": "SKU-037",
+              "name": "Laptop Cooling Pad",
+              "description": "USB-powered stand with fans to prevent your machine from overheating under load.",
+              "price": 28.99,
+              "stock_quantity": 70,
+              "delivery_time_hours": 24,
+              "category": "electronics",
+              "brand": "CoolerMaster",
+              "image_url": "https://example.com/img/cooling.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "USER#789": {
+      "user_id": "USER#789",
+      "full_name": "Arjun Mehta",
+      "email": "arjun@frictionless.app",
+      "shipping_address": "Trek Base Camp, Manali, HP",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-2201",
+          "purchase_date": "2026-05-25T06:15:00Z",
+          "total_amount": 279.0,
+          "items_purchased": [
+            {
+              "sku": "SKU-002",
+              "name": "High-Altitude Sleeping Bag (-10°C)",
+              "description": "Thermal mummy-style sleeping bag designed for extreme cold and mountain trekking up to 12,000 feet.",
+              "price": 189.0,
+              "stock_quantity": 15,
+              "delivery_time_hours": 48,
+              "category": "outdoor",
+              "brand": "SummitGear",
+              "image_url": "https://example.com/img/sleeping-bag.jpg"
+            },
+            {
+              "sku": "SKU-008",
+              "name": "Carbon Fiber Trekking Poles",
+              "description": "Lightweight, shock-absorbing poles for high-altitude hiking and joint protection.",
+              "price": 45.0,
+              "stock_quantity": 60,
+              "delivery_time_hours": 24,
+              "category": "outdoor",
+              "brand": "TrailBlaze",
+              "image_url": "https://example.com/img/trekking-poles.jpg"
+            },
+            {
+              "sku": "SKU-042",
+              "name": "Headlamp 500 Lumens",
+              "description": "Rechargeable LED headlamp for hands-free lighting during night hikes.",
+              "price": 35.0,
+              "stock_quantity": 55,
+              "delivery_time_hours": 24,
+              "category": "outdoor",
+              "brand": "Petzl",
+              "image_url": "https://example.com/img/headlamp.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-2202",
+          "purchase_date": "2026-03-10T11:00:00Z",
+          "total_amount": 39.98,
+          "items_purchased": [
+            {
+              "sku": "SKU-015",
+              "name": "Altitude Sickness Relief Chews",
+              "description": "Ginger and electrolyte infused chews to combat nausea at high elevations.",
+              "price": 14.99,
+              "stock_quantity": 120,
+              "delivery_time_hours": 12,
+              "category": "health",
+              "brand": "SummitGear",
+              "image_url": "https://example.com/img/chews.jpg"
+            },
+            {
+              "sku": "SKU-029",
+              "name": "First Aid Survival Kit",
+              "description": "Compact kit with bandages, antiseptics, and emergency whistle for hiking.",
+              "price": 24.99,
+              "stock_quantity": 85,
+              "delivery_time_hours": 24,
+              "category": "outdoor",
+              "brand": "TrailBlaze",
+              "image_url": "https://example.com/img/firstaid.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "USER#321": {
+      "user_id": "USER#321",
+      "full_name": "Sneha Verma",
+      "email": "sneha@frictionless.app",
+      "shipping_address": "PG Hostel C Block, Pune",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-3301",
+          "purchase_date": "2026-06-05T17:45:00Z",
+          "total_amount": 63.49,
+          "items_purchased": [
+            {
+              "sku": "SKU-007",
+              "name": "Vitamin B12 Vegan Gummies",
+              "description": "Daily vegetarian supplement to support energy levels and nerve health. 60 count.",
+              "price": 18.99,
+              "stock_quantity": 150,
+              "delivery_time_hours": 2,
+              "category": "health",
+              "brand": "NaturaLife",
+              "image_url": "https://example.com/img/b12-gummies.jpg"
+            },
+            {
+              "sku": "SKU-013",
+              "name": "Organic Lentil Soup (6-Pack)",
+              "description": "Ready-to-eat, microwaveable vegetarian soup. High in protein and fiber.",
+              "price": 16.0,
+              "stock_quantity": 85,
+              "delivery_time_hours": 2,
+              "category": "food",
+              "brand": "EarthEats",
+              "image_url": "https://example.com/img/soup.jpg"
+            },
+            {
+              "sku": "SKU-038",
+              "name": "Green Tea Matcha Powder",
+              "description": "Ceremonial grade organic matcha for a calm, jitter-free energy lift.",
+              "price": 26.5,
+              "stock_quantity": 60,
+              "delivery_time_hours": 12,
+              "category": "food",
+              "brand": "MatchaKari",
+              "image_url": "https://example.com/img/matcha.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-3302",
+          "purchase_date": "2026-02-14T12:00:00Z",
+          "total_amount": 31.99,
+          "items_purchased": [
+            {
+              "sku": "SKU-030",
+              "name": "Vegetarian Cookbook for Students",
+              "description": "Quick, cheap, and easy meatless recipes using a single pan or microwave.",
+              "price": 15.99,
+              "stock_quantity": 110,
+              "delivery_time_hours": 24,
+              "category": "books",
+              "brand": "FoodPress",
+              "image_url": "https://example.com/img/cookbook.jpg"
+            },
+            {
+              "sku": "SKU-041",
+              "name": "Reusable Silicone Food Storage Bags",
+              "description": "Eco-friendly alternative to plastic bags. Great for storing vegetarian meal prep.",
+              "price": 18.0,
+              "stock_quantity": 120,
+              "delivery_time_hours": 24,
+              "category": "home",
+              "brand": "Stasher",
+              "image_url": "https://example.com/img/stasher.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    "USER#654": {
+      "user_id": "USER#654",
+      "full_name": "Rohan Das",
+      "email": "rohan@frictionless.app",
+      "shipping_address": "IIT Hostel Room 12, Delhi",
+      "past_transactions": [
+        {
+          "transaction_id": "TXN-4401",
+          "purchase_date": "2026-05-30T20:00:00Z",
+          "total_amount": 180.99,
+          "items_purchased": [
+            {
+              "sku": "SKU-001",
+              "name": "Advanced MERN Stack Architectures",
+              "description": "A comprehensive textbook detailing MongoDB, Express, React, and Node.js integration for scalable web apps.",
+              "price": 54.99,
+              "stock_quantity": 40,
+              "delivery_time_hours": 24,
+              "category": "books",
+              "brand": "TechPress",
+              "image_url": "https://example.com/img/mern-book.jpg"
+            },
+            {
+              "sku": "SKU-004",
+              "name": "Digital Signal Processing Fundamentals",
+              "description": "Learn the math behind audio analysis, including STFT, DFT, and MFCC windowing functions.",
+              "price": 65.0,
+              "stock_quantity": 25,
+              "delivery_time_hours": 24,
+              "category": "books",
+              "brand": "AudioTech",
+              "image_url": "https://example.com/img/dsp-book.jpg"
+            },
+            {
+              "sku": "SKU-043",
+              "name": "Algorithms to Live By (Paperback)",
+              "description": "Fascinating book applying computer science principles to everyday human decisions.",
+              "price": 16.99,
+              "stock_quantity": 40,
+              "delivery_time_hours": 24,
+              "category": "books",
+              "brand": "Penguin",
+              "image_url": "https://example.com/img/algo-book.jpg"
+            },
+            {
+              "sku": "SKU-044",
+              "name": "Wireless Presentation Clicker",
+              "description": "Laser pointer and slide advancer for delivering college or hackathon project pitches.",
+              "price": 21.0,
+              "stock_quantity": 60,
+              "delivery_time_hours": 12,
+              "category": "electronics",
+              "brand": "Kensington",
+              "image_url": "https://example.com/img/clicker.jpg"
+            }
+          ]
+        },
+        {
+          "transaction_id": "TXN-4402",
+          "purchase_date": "2026-04-01T09:00:00Z",
+          "total_amount": 61.99,
+          "items_purchased": [
+            {
+              "sku": "SKU-014",
+              "name": "Dual Monitor Desk Mount",
+              "description": "Heavy-duty VESA mount to hold two screens side-by-side. Essential for developers.",
+              "price": 39.99,
+              "stock_quantity": 40,
+              "delivery_time_hours": 24,
+              "category": "office",
+              "brand": "MountIt",
+              "image_url": "https://example.com/img/mount.jpg"
+            },
+            {
+              "sku": "SKU-047",
+              "name": "USB Hub 4-Port",
+              "description": "Expand a single USB port into four. Essential for connecting a mouse, keyboard, and mic.",
+              "price": 14.99,
+              "stock_quantity": 200,
+              "delivery_time_hours": 2,
+              "category": "electronics",
+              "brand": "Sabrent",
+              "image_url": "https://example.com/img/hub.jpg"
+            },
+            {
+              "sku": "SKU-024",
+              "name": "USB-C Braided Cable 6ft",
+              "description": "Fast charging cable compatible with most modern smartphones and laptops.",
+              "price": 15.0,
+              "stock_quantity": 300,
+              "delivery_time_hours": 2,
+              "category": "electronics",
+              "brand": "Anker",
+              "image_url": "https://example.com/img/usbc.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
