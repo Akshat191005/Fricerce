@@ -4,7 +4,7 @@
 
 ### One sentence. Zero friction. Instant cart.
 
-An AI shopping copilot that turns a single plain-English request into a ready-to-checkout cart — blending **instant reorders** from your purchase history with **AI-powered discovery** of new products, all in parallel.
+An AI shopping copilot that turns a single plain English request into a ready-to-checkout cart blending **instant reorders** from your purchase history with **AI powered discovery** of new products, all in parallel.
 
 [![Live App](https://img.shields.io/badge/Live%20App-fricerce.vercel.app-orange?style=for-the-badge)](https://fricerce.vercel.app/)
 &nbsp;
@@ -45,10 +45,10 @@ The core insight: **reorders and discovery are different retrieval problems and 
 |---------|-------------|
 | 🧠 **Zero-Shot Intent Parsing** | Groq (`llama-3.3-70b`) dissects one sentence into reorder intents, semantic goals, budget caps, delivery deadlines, and exclusions |
 | 🛣️ **Dual-Path Retrieval Engine** | Exact reorders from **DynamoDB** (O(1)) run concurrently with semantic discovery from **Pinecone** vector search |
-| ⚡ **Urgent Mode** | One toggle re-ranks the cart around speed — caps delivery windows and surfaces the fastest-arriving items first |
+| ⚡ **Urgent Mode** | One toggle re-ranks the cart around speed caps delivery windows and surfaces the fastest arriving items first |
 | 🏷️ **Explainable Cart** | Every item shows *why* it's there: a reorder from history, or an AI match for your goal |
 | 🎯 **Smart Constraints** | Auto-applies budget limits, delivery deadlines, and exclusions ("not red", "no leather") parsed from plain text |
-| 📡 **Live Streaming** | Results stream in progressively via Server-Sent Events for instant perceived speed |
+| 📡 **Live Streaming** | Results stream in progressively via Server Sent Events for instant perceived speed |
 
 ---
 
@@ -85,8 +85,8 @@ The core insight: **reorders and discovery are different retrieval problems and 
 ### Core Algorithm — Concurrent Dual-Path Fetch
 
 - **Fast Path:** `O(1)` DynamoDB `GetItem` on the user partition key → match against purchase history.
-- **Slow Path:** `O(log N)` Pinecone HNSW vector search, one query per goal, round-robin interleaved.
-- Both launch together via Python's `asyncio.gather`, so total latency is bounded by the **slower** path — not the sum.
+- **Slow Path:** `O(log N)` Pinecone HNSW vector search, one query per goal, round robin interleaved.
+- Both launch together via Python's `asyncio.gather`, so total latency is bounded by the **slower** path not the sum.
 - A **Smart Re-ranking** pass (`O(M log M)`) sorts items by origin tier (history > semantic), term overlap, and delivery urgency.
 
 ---
