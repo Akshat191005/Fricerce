@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Fricerce — Frictionless Commerce
+# ⚡ Fricerce - Frictionless Commerce
 
 ### One sentence. Zero friction. Instant cart.
 
