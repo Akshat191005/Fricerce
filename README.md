@@ -27,7 +27,7 @@ E-commerce search is broken. It forces shoppers to squeeze two fundamentally dif
 - **Reordering** something they already buy ("my usual coffee pods")
 - **Discovering** something for a vague need ("gear for a camping trip")
 
-Treating both the same way creates friction, decision fatigue, and abandoned carts — cart abandonment sits around **70%** industry-wide. Every extra step between intent and checkout costs conversion.
+Treating both the same way creates friction, decision fatigue, and abandoned cart-cart abandonment sits around **70%** industry-wide. Every extra step between intent and checkout costs conversion.
 
 ## 💡 The Solution
 
