@@ -68,7 +68,7 @@ export function ProductCard({ item }: ProductCardProps) {
             "
             title={item.context_badge}
           >
-            {context_badge}
+            {item.context_badge}
           </span>
         </div>
 
