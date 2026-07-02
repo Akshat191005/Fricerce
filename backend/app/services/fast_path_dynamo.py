@@ -4,37 +4,13 @@ Performs O(1) lookups against real AWS DynamoDB to find previously
 purchased items matching a product name or SKU.
 """
 import asyncio
+
 from app.config import get_dynamodb_table
 from app.schemas.core import UnifiedItem
 
 
-async def lookup_user_history(
-    product_name: str,
-    user_id: str,
-) -> list[UnifiedItem]:
-    """
-    O(1) DynamoDB GetItem by user_id (partition key).
-    Searches past_transactions for items matching product_name
-    (case-insensitive partial match on name, or exact SKU match).
-    Returns matching UnifiedItems tagged as dynamodb_history.
-    """
-    loop = asyncio.get_event_loop()
-
-    def _fetch() -> dict | None:
-        table = get_dynamodb_table()
-        response = table.get_item(Key={"user_id": user_id})
-        item = response.get("Item")
-        if item:
-            txn_count = len(item.get("past_transactions", []))
-            print(f"[dynamo] found user {user_id}, {txn_count} transactions")
-        else:
-            print(f"[dynamo] NO user found for user_id={user_id!r}")
-        return item
-
-    user_data = await loop.run_in_executor(None, _fetch)
-    if not user_data:
-        return []
-
+def _match_items_in_user_data(product_name: str, user_data: dict) -> list[UnifiedItem]:
+    """Match a single product name against a user's purchase history."""
     results: list[UnifiedItem] = []
     # Normalize: lowercase + replace hyphens/underscores with spaces
     product_name_normalized = product_name.lower().replace("-", " ").replace("_", " ").strip()
@@ -47,7 +23,6 @@ async def lookup_user_history(
             substring_match = product_name_normalized in item_name_normalized
             word_match = any(w in item_name_normalized for w in product_words if len(w) > 3)
             sku_match = product_name.upper() == item["sku"].upper()
-            print(f"[dynamo] checking '{item['name']}' against '{product_name_normalized}': match={substring_match or word_match or sku_match}")
             if substring_match or word_match or sku_match:
                 results.append(
                     UnifiedItem(
@@ -66,3 +41,60 @@ async def lookup_user_history(
                 )
 
     return results
+
+
+async def _fetch_user(user_id: str) -> dict | None:
+    """Single DynamoDB GetItem by user_id (partition key), run off the event loop."""
+    loop = asyncio.get_running_loop()
+
+    def _fetch() -> dict | None:
+        table = get_dynamodb_table()
+        response = table.get_item(Key={"user_id": user_id})
+        item = response.get("Item")
+        if item:
+            txn_count = len(item.get("past_transactions", []))
+            print(f"[dynamo] found user {user_id}, {txn_count} transactions")
+        else:
+            print(f"[dynamo] NO user found for user_id={user_id!r}")
+        return item
+
+    return await loop.run_in_executor(None, _fetch)
+
+
+async def lookup_user_history_multi(
+    product_names: list[str],
+    user_id: str,
+) -> dict[str, list[UnifiedItem]]:
+    """
+    Fetch the user's record ONCE and match every requested product name
+    against their purchase history.
+
+    Returns a dict mapping each product_name -> list of matching UnifiedItems.
+    Names with no match map to an empty list (so callers can trigger a
+    semantic fallback).
+    """
+    if not product_names:
+        return {}
+
+    user_data = await _fetch_user(user_id)
+    if not user_data:
+        return {name: [] for name in product_names}
+
+    return {
+        name: _match_items_in_user_data(name, user_data)
+        for name in product_names
+    }
+
+
+async def lookup_user_history(
+    product_name: str,
+    user_id: str,
+) -> list[UnifiedItem]:
+    """
+    Backwards-compatible single-name lookup.
+    Prefer lookup_user_history_multi when resolving several names at once.
+    """
+    user_data = await _fetch_user(user_id)
+    if not user_data:
+        return []
+    return _match_items_in_user_data(product_name, user_data)

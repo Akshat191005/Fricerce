@@ -14,7 +14,9 @@ from app.schemas.core import UnifiedItem
 
 INDEX_NAME = PINECONE_INDEX_NAME
 NAMESPACE = "catalog"
-TOP_K = 3
+# Higher top_k = better recall. The re-ranker in main.py trims/orders these,
+# so we can afford to pull a few more candidates per query.
+TOP_K = 5
 
 
 @lru_cache(maxsize=1)
@@ -25,7 +27,7 @@ def _get_index():
 
 async def search_by_goal(goal: str, top_k: int = TOP_K) -> list[UnifiedItem]:
     try:
-        loop = asyncio.get_event_loop()
+        loop = asyncio.get_running_loop()
 
         def _query() -> list:
             index = _get_index()
@@ -44,7 +46,6 @@ async def search_by_goal(goal: str, top_k: int = TOP_K) -> list[UnifiedItem]:
         unified_items: list[UnifiedItem] = []
         for hit in hits:
             fields = hit.get("fields", {})
-            score = hit.get("_score", 0.0)
             unified_items.append(
                 UnifiedItem(
                     sku=fields.get("sku", hit.get("_id", "")),
@@ -57,7 +58,7 @@ async def search_by_goal(goal: str, top_k: int = TOP_K) -> list[UnifiedItem]:
                     brand=fields.get("brand", ""),
                     image_url=fields.get("image_url", ""),
                     source_database="pinecone_semantic",
-                    context_badge=f"Discovered: Matches your goal '{goal}' ({score:.0%} similarity)",
+                    context_badge=f"Discovered: Matches your goal '{goal}'",
                 )
             )
         return unified_items
@@ -67,14 +68,22 @@ async def search_by_goal(goal: str, top_k: int = TOP_K) -> list[UnifiedItem]:
         return []
 
 
-async def search_by_goals(goals: list[str]) -> list[UnifiedItem]:
+async def search_by_goals_map(goals: list[str]) -> dict[str, list[UnifiedItem]]:
+    """
+    Run a semantic search for each goal concurrently and return a dict
+    mapping each goal -> its ranked list of UnifiedItems (not deduped/interleaved).
+    Useful for per-query fallback logic.
+    """
     if not goals:
-        return []
+        return {}
 
     tasks = [search_by_goal(goal) for goal in goals]
-    results_per_goal: list[list[UnifiedItem]] = list(await asyncio.gather(*tasks))
+    results_per_goal = await asyncio.gather(*tasks)
+    return {goal: results for goal, results in zip(goals, results_per_goal)}
 
-    # Round-robin interleave so each goal's top match comes first
+
+def interleave(results_per_goal: list[list[UnifiedItem]]) -> list[UnifiedItem]:
+    """Round-robin interleave so each goal's top match comes first, deduped by SKU."""
     seen: set[str] = set()
     unified: list[UnifiedItem] = []
     max_len = max((len(r) for r in results_per_goal), default=0)
@@ -88,3 +97,12 @@ async def search_by_goals(goals: list[str]) -> list[UnifiedItem]:
                     unified.append(item)
 
     return unified
+
+
+async def search_by_goals(goals: list[str]) -> list[UnifiedItem]:
+    if not goals:
+        return []
+
+    tasks = [search_by_goal(goal) for goal in goals]
+    results_per_goal: list[list[UnifiedItem]] = list(await asyncio.gather(*tasks))
+    return interleave(results_per_goal)

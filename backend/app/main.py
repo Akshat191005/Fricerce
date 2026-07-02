@@ -13,8 +13,8 @@ from pydantic import BaseModel
 
 from app.schemas.core import UnifiedItem
 from app.services.llm_orchestrator import parse_user_intent
-from app.services.fast_path_dynamo import lookup_user_history
-from app.services.slow_path_pinecone import search_by_goals
+from app.services.fast_path_dynamo import lookup_user_history_multi
+from app.services.slow_path_pinecone import search_by_goals, search_by_goals_map
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -73,19 +73,35 @@ async def _compute_results(request: ChatRequest) -> list[UnifiedItem]:
 
     logger.info(f"[routing] reorders={reorder_names}, goals={all_goals}")
 
-    fast_tasks = [lookup_user_history(name, request.user_id) for name in reorder_names]
-
-    # Step 3: Run both paths concurrently
-    fast_results_nested, slow_results = await asyncio.gather(
-        asyncio.gather(*fast_tasks) if fast_tasks else asyncio.gather(),
+    # Step 3: Run all retrieval concurrently in a single round-trip:
+    #   - dynamo_map: purchase-history matches for each reorder name (1 GetItem total)
+    #   - slow_results: semantic results for discovery goals
+    #   - reorder_semantic_map: semantic results per reorder name, used as a
+    #     fallback so a REORDER item that isn't in the user's history still
+    #     surfaces a relevant product instead of returning nothing.
+    dynamo_map, slow_results, reorder_semantic_map = await asyncio.gather(
+        lookup_user_history_multi(reorder_names, request.user_id),
         search_by_goals(all_goals),
+        search_by_goals_map(reorder_names),
     )
 
     fast_results: list[UnifiedItem] = []
-    for batch in fast_results_nested:
-        fast_results.extend(batch)
+    fallback_count = 0
+    for name in reorder_names:
+        history_hits = dynamo_map.get(name, [])
+        if history_hits:
+            fast_results.extend(history_hits)
+        else:
+            # No purchase history for this item — fall back to semantic search
+            # so the user still gets a relevant match.
+            for item in reorder_semantic_map.get(name, []):
+                fallback_count += 1
+                fast_results.append(item.model_copy(update={
+                    "context_badge": f"Suggested match for '{name}'",
+                }))
 
-    logger.info(f"[results] fast={len(fast_results)}, slow={len(slow_results)}")
+    logger.info(f"[results] fast={len(fast_results)} "
+                f"(history + {fallback_count} semantic fallback), slow={len(slow_results)}")
 
     # Step 4: Urgent mode
     URGENT_MAX_HOURS = 12

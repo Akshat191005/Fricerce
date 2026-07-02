@@ -28,8 +28,10 @@ DYNAMODB_TABLE_NAME: str = os.getenv("DYNAMODB_TABLE_NAME", "frictionless-users"
 # Pinecone index name
 PINECONE_INDEX_NAME: str = "frictionless-commerce"
 
-# Groq model
-GROQ_MODEL: str = "llama-3.3-70b-versatile"
+# Groq model — Llama 4 Scout: fast MoE (17B active params) with strong
+# instruction-following and clean JSON-mode support. Newer/faster than the
+# older llama-3.3-70b-versatile, well-suited for low-latency intent parsing.
+GROQ_MODEL: str = "meta-llama/llama-4-scout-17b-16e-instruct"
 
 
 # ── Singleton Client Factories ─────────────────────────────────────────────
